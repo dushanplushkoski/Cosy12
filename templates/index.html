@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosy 6 Calculator</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            width: 60%;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+        }
+        .input-group {
+            margin: 10px 0;
+            text-align: left;
+        }
+        label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+        }
+        input {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        button {
+            background: #28a745;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+            width: 100%;
+        }
+        button:hover {
+            background: #218838;
+        }
+        .output-container {
+            margin-top: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .output-box {
+            width: 30%;
+            min-width: 200px;
+            background: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+        .output-box h4 {
+            margin: 0;
+            font-size: 14px;
+            color: #007bff;
+        }
+        .output-box p {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+        }
+        .highlight-box {
+            width: 90%;
+            background: #ffeeba;
+            border-left: 5px solid #ffc107;
+            padding: 10px;
+            margin-top: 10px;
+            font-size: 14px;
+            color: #856404;
+            text-align: center;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Cosy 6 Calculator</h2>
+        <form id="calcForm">
+            <div class="input-group">
+                <label>Ambient Temperature (°C) <span style="font-weight: normal; font-style: italic;">[outside air temperature]</span></label>
+                <input type="number" id="in1" required>
+            </div>
+            <div class="input-group">
+                <label>Condensing Temperature (°C) <span style="font-weight: normal; font-style: italic;">[same as water flow temperature]</span></label>
+                <input type="number" id="in2" required>
+            </div>
+            <div class="input-group">
+                <label>Compressor RPM <span style="font-weight: normal; font-style: italic;">[Min: 1100, Max: 5500]</span></label>
+                <input type="number" id="in3" required>
+            </div>
+            <div class="input-group">
+                <label>Superheat <span style="font-weight: normal; font-style: italic;">[target is 7K in all conditions]</span></label>
+                <input type="number" id="in4" required>
+            </div>
+            <div class="input-group">
+                <label>Condenser Subcool <span style="font-weight: normal; font-style: italic;">[typically 2K in all conditions]</span></label>
+                <input type="number" id="in5" required>
+            </div>
+            <div class="input-group">
+                <label>ΔT between ambient and suction line temperature <span style="font-weight: normal; font-style: italic;">[increase to lower evaporation temp - typically set to 3°C]</span></label>
+                <input type="number" id="in6" required>
+            </div>
+            
+            <button type="button" onclick="calculate()">Calculate</button>
+        </form>
+
+        <!-- Outputs Section -->
+        <div id="outputSection" class="output-container" style="display:none;">
+            <div class="output-box"><h4>COP</h4><p id="out1"></p></div>
+            <div class="output-box"><h4>Capacity (kW)</h4><p id="out2"></p></div>
+            <div class="output-box"><h4>Power Input (kW)</h4><p id="out3"></p></div>
+            <div class="output-box"><h4>Compressor Power Input (W)</h4><p id="out4"></p></div>
+            <div class="output-box"><h4>Fan Power (W)</h4><p id="out5"></p></div>
+            <div class="output-box"><h4>Pump Power (W)</h4><p id="out6"></p></div>
+            <div class="output-box"><h4>Suction Pressure (Barg)</h4><p id="out7"></p></div>
+            <div class="output-box"><h4>Discharge Pressure (Barg)</h4><p id="out8"></p></div>
+            <div class="output-box"><h4>R290 Mass Flow (g/s)</h4><p id="out9"></p></div>
+            <div class="output-box"><h4>Evaporation Temperature (°C)</h4><p id="out10"></p></div>
+            <div class="output-box"><h4>Expansion Valve Temperature Drop (°C)</h4><p id="out11"></p></div>
+            <div class="output-box"><h4>Mass Flow Air (m³/h)</h4><p id="out12"></p></div>
+            <div class="output-box"><h4>Mass Flow Water (L/min)</h4><p id="out13"></p></div>
+            <div class="output-box"><h4>ΔT between Water Flow and Return (°C)</h4><p id="out14"></p></div>
+            <div class="output-box"><h4>Evaporator Capacity (W)</h4><p id="out15"></p></div>
+        </div>
+
+        <!-- Defrost Adjustment Notice -->
+        <div id="adjustmentNotice" class="highlight-box">
+            <p><strong>Note:</strong> 600 Watts are to be subtracted from the capacity because ambient temperature is between -5°C and 5°C, where defrosts are likely to occur.</p>
+            <p><strong>Capacity Including Defrost</p><strong> <span id="finalCapacity"></span> kW</p>
+        </div>
+    </div>
+
+    <script>
+        function calculate() {
+            const inputs = {
+                in1: parseFloat(document.getElementById('in1').value),
+                in2: parseFloat(document.getElementById('in2').value),
+                in3: parseFloat(document.getElementById('in3').value),
+                in4: parseFloat(document.getElementById('in4').value),
+                in5: parseFloat(document.getElementById('in5').value),
+                in6: parseFloat(document.getElementById('in6').value),
+            };
+
+            fetch('/calculate', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(inputs)
+            })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('outputSection').style.display = 'flex';
+
+                // Fill all outputs
+                for (let i = 1; i <= 15; i++) {
+                    document.getElementById('out' + i).innerText = data.outputs[i - 1].toFixed(3);
+                }
+
+                let capacity = data.outputs[1]; // Capacity (kW)
+                document.getElementById('out2').innerText = capacity.toFixed(3) + " kW";
+
+                // Adjust Capacity if Ambient Temperature is between -5 and 5
+                if (inputs.in1 >= -5 && inputs.in1 <= 5) {
+                    capacity -= 0.6;
+                    document.getElementById('adjustmentNotice').style.display = 'block';
+                } else {
+                    document.getElementById('adjustmentNotice').style.display = 'none';
+                }
+
+                document.getElementById('finalCapacity').innerText = capacity.toFixed(3);
+            });
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,234 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Program Files/MATLAB/R2024b/extern/include/matrix.h
+stdlib.h
+-
+stddef.h
+-
+tmwtypes.h
+/mnt/c/Program Files/MATLAB/R2024b/extern/include/tmwtypes.h
+assert.h
+-
+
+/mnt/c/Program Files/MATLAB/R2024b/extern/include/tmwtypes.h
+mwstdint.h
+/mnt/c/Program Files/MATLAB/R2024b/extern/include/mwstdint.h
+limits.h
+-
+stdbool.h
+-
+float.h
+-
+stddef.h
+-
+
+/mnt/c/Program Files/MATLAB/R2024b/rtw/c/src/rt_logging.h
+stddef.h
+-
+rtwtypes.h
+/mnt/c/Program Files/MATLAB/R2024b/rtw/c/src/rtwtypes.h
+builtin_typeid_types.h
+/mnt/c/Program Files/MATLAB/R2024b/rtw/c/src/builtin_typeid_types.h
+multiword_types.h
+/mnt/c/Program Files/MATLAB/R2024b/rtw/c/src/multiword_types.h
+matrix.h
+/mnt/c/Program Files/MATLAB/R2024b/rtw/c/src/matrix.h
+rt_mxclassid.h
+/mnt/c/Program Files/MATLAB/R2024b/rtw/c/src/rt_mxclassid.h
+rtw_matlogging.h
+/mnt/c/Program Files/MATLAB/R2024b/rtw/c/src/rtw_matlogging.h
+
+/mnt/c/Program Files/MATLAB/R2024b/rtw/c/src/rt_mxclassid.h
+
+/mnt/c/Program Files/MATLAB/R2024b/rtw/c/src/rtw_capi.h
+simstruct/simstruc_types.h
+/mnt/c/Program Files/MATLAB/R2024b/rtw/c/src/simstruct/simstruc_types.h
+simstruc_types.h
+/mnt/c/Program Files/MATLAB/R2024b/rtw/c/src/simstruc_types.h
+rtwtypes.h
+/mnt/c/Program Files/MATLAB/R2024b/rtw/c/src/rtwtypes.h
+stddef.h
+-
+
+/mnt/c/Program Files/MATLAB/R2024b/rtw/c/src/rtw_modelmap.h
+version.h
+/mnt/c/Program Files/MATLAB/R2024b/rtw/c/src/version.h
+util/memmgr/memalloc.hpp
+/mnt/c/Program Files/MATLAB/R2024b/rtw/c/src/util/memmgr/memalloc.hpp
+simstruct/simstruc_types.h
+/mnt/c/Program Files/MATLAB/R2024b/rtw/c/src/simstruct/simstruc_types.h
+simulinkcoder_capi_export.hpp
+/mnt/c/Program Files/MATLAB/R2024b/rtw/c/src/simulinkcoder_capi_export.hpp
+stdlib.h
+-
+simstruc_types.h
+/mnt/c/Program Files/MATLAB/R2024b/rtw/c/src/simstruc_types.h
+rtwtypes.h
+/mnt/c/Program Files/MATLAB/R2024b/rtw/c/src/rtwtypes.h
+rtw_capi.h
+/mnt/c/Program Files/MATLAB/R2024b/rtw/c/src/rtw_capi.h
+rtw_modelmap_logging.h
+/mnt/c/Program Files/MATLAB/R2024b/rtw/c/src/rtw_modelmap_logging.h
+
+/mnt/c/Program Files/MATLAB/R2024b/rtw/c/src/rtw_modelmap_logging.h
+simstruct/sysran_types.h
+/mnt/c/Program Files/MATLAB/R2024b/rtw/c/src/simstruct/sysran_types.h
+sysran_types.h
+/mnt/c/Program Files/MATLAB/R2024b/rtw/c/src/sysran_types.h
+
+/mnt/c/Program Files/MATLAB/R2024b/simulink/include/rtw_continuous.h
+tmwtypes.h
+/mnt/c/Program Files/MATLAB/R2024b/simulink/include/tmwtypes.h
+rtwtypes.h
+/mnt/c/Program Files/MATLAB/R2024b/simulink/include/rtwtypes.h
+
+/mnt/c/Program Files/MATLAB/R2024b/simulink/include/rtw_extmode.h
+rtwtypes.h
+/mnt/c/Program Files/MATLAB/R2024b/simulink/include/rtwtypes.h
+slexec_simbridge.h
+/mnt/c/Program Files/MATLAB/R2024b/simulink/include/slexec_simbridge.h
+
+/mnt/c/Program Files/MATLAB/R2024b/simulink/include/rtw_matlogging.h
+sl_types_def.h
+/mnt/c/Program Files/MATLAB/R2024b/simulink/include/sl_types_def.h
+
+/mnt/c/Program Files/MATLAB/R2024b/simulink/include/rtw_matlogging_simtarget.h
+sl_types_def.h
+/mnt/c/Program Files/MATLAB/R2024b/simulink/include/sl_types_def.h
+
+/mnt/c/Program Files/MATLAB/R2024b/simulink/include/rtw_solver.h
+rtw_continuous.h
+/mnt/c/Program Files/MATLAB/R2024b/simulink/include/rtw_continuous.h
+
+/mnt/c/Program Files/MATLAB/R2024b/simulink/include/simstruc_types.h
+tmwtypes.h
+/mnt/c/Program Files/MATLAB/R2024b/simulink/include/tmwtypes.h
+rtwtypes.h
+/mnt/c/Program Files/MATLAB/R2024b/simulink/include/rtwtypes.h
+sl_types_def.h
+/mnt/c/Program Files/MATLAB/R2024b/simulink/include/sl_types_def.h
+rtw_matlogging_simtarget.h
+/mnt/c/Program Files/MATLAB/R2024b/simulink/include/rtw_matlogging_simtarget.h
+rtw_matlogging.h
+/mnt/c/Program Files/MATLAB/R2024b/simulink/include/rtw_matlogging.h
+rtw_extmode.h
+/mnt/c/Program Files/MATLAB/R2024b/simulink/include/rtw_extmode.h
+rtw_continuous.h
+/mnt/c/Program Files/MATLAB/R2024b/simulink/include/rtw_continuous.h
+rtw_solver.h
+/mnt/c/Program Files/MATLAB/R2024b/simulink/include/rtw_solver.h
+sysran_types.h
+/mnt/c/Program Files/MATLAB/R2024b/simulink/include/sysran_types.h
+sl_sample_time_defs.h
+/mnt/c/Program Files/MATLAB/R2024b/simulink/include/sl_sample_time_defs.h
+
+/mnt/c/Program Files/MATLAB/R2024b/simulink/include/sl_sample_time_defs.h
+
+/mnt/c/Program Files/MATLAB/R2024b/simulink/include/sl_types_def.h
+tmwtypes.h
+/mnt/c/Program Files/MATLAB/R2024b/simulink/include/tmwtypes.h
+rtwtypes.h
+/mnt/c/Program Files/MATLAB/R2024b/simulink/include/rtwtypes.h
+
+/mnt/c/Program Files/MATLAB/R2024b/simulink/include/slexec_simbridge.h
+tmwtypes.h
+/mnt/c/Program Files/MATLAB/R2024b/simulink/include/tmwtypes.h
+package.h
+/mnt/c/Program Files/MATLAB/R2024b/simulink/include/package.h
+
+/mnt/c/Program Files/MATLAB/R2024b/simulink/include/sysran_types.h
+
+/mnt/c/Users/Dushan Plushkoski/Desktop/Cosy Development/MATLAB_Sims/Cosy12_Model4_grt_rtw/Cosy12_Model4.cpp
+Cosy12_Model4.h
+/mnt/c/Users/Dushan Plushkoski/Desktop/Cosy Development/MATLAB_Sims/Cosy12_Model4_grt_rtw/Cosy12_Model4.h
+rtwtypes.h
+/mnt/c/Users/Dushan Plushkoski/Desktop/Cosy Development/MATLAB_Sims/Cosy12_Model4_grt_rtw/rtwtypes.h
+Cosy12_Model4_private.h
+/mnt/c/Users/Dushan Plushkoski/Desktop/Cosy Development/MATLAB_Sims/Cosy12_Model4_grt_rtw/Cosy12_Model4_private.h
+cmath
+-
+cstring
+-
+Cosy12_Model4_capi.h
+/mnt/c/Users/Dushan Plushkoski/Desktop/Cosy Development/MATLAB_Sims/Cosy12_Model4_grt_rtw/Cosy12_Model4_capi.h
+cmath
+/mnt/c/Users/Dushan Plushkoski/Desktop/Cosy Development/MATLAB_Sims/Cosy12_Model4_grt_rtw/cmath
+iostream
+-
+iostream
+-
+Cosy12_Model4.h
+/mnt/c/Users/Dushan Plushkoski/Desktop/Cosy Development/MATLAB_Sims/Cosy12_Model4_grt_rtw/Cosy12_Model4.h
+
+/mnt/c/Users/Dushan Plushkoski/Desktop/Cosy Development/MATLAB_Sims/Cosy12_Model4_grt_rtw/Cosy12_Model4.h
+cmath
+-
+rtwtypes.h
+/mnt/c/Users/Dushan Plushkoski/Desktop/Cosy Development/MATLAB_Sims/Cosy12_Model4_grt_rtw/rtwtypes.h
+rtw_continuous.h
+/mnt/c/Users/Dushan Plushkoski/Desktop/Cosy Development/MATLAB_Sims/Cosy12_Model4_grt_rtw/rtw_continuous.h
+rtw_solver.h
+/mnt/c/Users/Dushan Plushkoski/Desktop/Cosy Development/MATLAB_Sims/Cosy12_Model4_grt_rtw/rtw_solver.h
+rt_logging.h
+/mnt/c/Users/Dushan Plushkoski/Desktop/Cosy Development/MATLAB_Sims/Cosy12_Model4_grt_rtw/rt_logging.h
+rt_nonfinite.h
+/mnt/c/Users/Dushan Plushkoski/Desktop/Cosy Development/MATLAB_Sims/Cosy12_Model4_grt_rtw/rt_nonfinite.h
+Cosy12_Model4_types.h
+/mnt/c/Users/Dushan Plushkoski/Desktop/Cosy Development/MATLAB_Sims/Cosy12_Model4_grt_rtw/Cosy12_Model4_types.h
+rtGetNaN.h
+/mnt/c/Users/Dushan Plushkoski/Desktop/Cosy Development/MATLAB_Sims/Cosy12_Model4_grt_rtw/rtGetNaN.h
+rtw_modelmap.h
+/mnt/c/Users/Dushan Plushkoski/Desktop/Cosy Development/MATLAB_Sims/Cosy12_Model4_grt_rtw/rtw_modelmap.h
+cfloat
+-
+cstring
+-
+
+/mnt/c/Users/Dushan Plushkoski/Desktop/Cosy Development/MATLAB_Sims/Cosy12_Model4_grt_rtw/Cosy12_Model4_capi.h
+Cosy12_Model4.h
+/mnt/c/Users/Dushan Plushkoski/Desktop/Cosy Development/MATLAB_Sims/Cosy12_Model4_grt_rtw/Cosy12_Model4.h
+
+/mnt/c/Users/Dushan Plushkoski/Desktop/Cosy Development/MATLAB_Sims/Cosy12_Model4_grt_rtw/Cosy12_Model4_private.h
+rtwtypes.h
+/mnt/c/Users/Dushan Plushkoski/Desktop/Cosy Development/MATLAB_Sims/Cosy12_Model4_grt_rtw/rtwtypes.h
+builtin_typeid_types.h
+/mnt/c/Users/Dushan Plushkoski/Desktop/Cosy Development/MATLAB_Sims/Cosy12_Model4_grt_rtw/builtin_typeid_types.h
+multiword_types.h
+/mnt/c/Users/Dushan Plushkoski/Desktop/Cosy Development/MATLAB_Sims/Cosy12_Model4_grt_rtw/multiword_types.h
+Cosy12_Model4.h
+/mnt/c/Users/Dushan Plushkoski/Desktop/Cosy Development/MATLAB_Sims/Cosy12_Model4_grt_rtw/Cosy12_Model4.h
+Cosy12_Model4_types.h
+/mnt/c/Users/Dushan Plushkoski/Desktop/Cosy Development/MATLAB_Sims/Cosy12_Model4_grt_rtw/Cosy12_Model4_types.h
+rtw_continuous.h
+/mnt/c/Users/Dushan Plushkoski/Desktop/Cosy Development/MATLAB_Sims/Cosy12_Model4_grt_rtw/rtw_continuous.h
+rtw_solver.h
+/mnt/c/Users/Dushan Plushkoski/Desktop/Cosy Development/MATLAB_Sims/Cosy12_Model4_grt_rtw/rtw_solver.h
+
+/mnt/c/Users/Dushan Plushkoski/Desktop/Cosy Development/MATLAB_Sims/Cosy12_Model4_grt_rtw/Cosy12_Model4_types.h
+
+/mnt/c/Users/Dushan Plushkoski/Desktop/Cosy Development/MATLAB_Sims/Cosy12_Model4_grt_rtw/builtin_typeid_types.h
+
+/mnt/c/Users/Dushan Plushkoski/Desktop/Cosy Development/MATLAB_Sims/Cosy12_Model4_grt_rtw/multiword_types.h
+rtwtypes.h
+/mnt/c/Users/Dushan Plushkoski/Desktop/Cosy Development/MATLAB_Sims/Cosy12_Model4_grt_rtw/rtwtypes.h
+
+/mnt/c/Users/Dushan Plushkoski/Desktop/Cosy Development/MATLAB_Sims/Cosy12_Model4_grt_rtw/rtGetNaN.h
+rt_nonfinite.h
+/mnt/c/Users/Dushan Plushkoski/Desktop/Cosy Development/MATLAB_Sims/Cosy12_Model4_grt_rtw/rt_nonfinite.h
+rtwtypes.h
+/mnt/c/Users/Dushan Plushkoski/Desktop/Cosy Development/MATLAB_Sims/Cosy12_Model4_grt_rtw/rtwtypes.h
+
+/mnt/c/Users/Dushan Plushkoski/Desktop/Cosy Development/MATLAB_Sims/Cosy12_Model4_grt_rtw/rt_nonfinite.h
+rtwtypes.h
+/mnt/c/Users/Dushan Plushkoski/Desktop/Cosy Development/MATLAB_Sims/Cosy12_Model4_grt_rtw/rtwtypes.h
+
+/mnt/c/Users/Dushan Plushkoski/Desktop/Cosy Development/MATLAB_Sims/Cosy12_Model4_grt_rtw/rtwtypes.h
+tmwtypes.h
+/mnt/c/Users/Dushan Plushkoski/Desktop/Cosy Development/MATLAB_Sims/Cosy12_Model4_grt_rtw/tmwtypes.h
+

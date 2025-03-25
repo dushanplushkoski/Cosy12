@@ -1,0 +1,4 @@
+/mnt/c/Users/Dushan Plushkoski/Desktop/Cosy Development/MATLAB_Sims/Cosy12_Model4_grt_rtw/build/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/Dushan Plushkoski/Desktop/Cosy Development/MATLAB_Sims/Cosy12_Model4_grt_rtw/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Dushan Plushkoski/Desktop/Cosy Development/MATLAB_Sims/Cosy12_Model4_grt_rtw/build/CMakeFiles/libcosy.dir
+/mnt/c/Users/Dushan Plushkoski/Desktop/Cosy Development/MATLAB_Sims/Cosy12_Model4_grt_rtw/build/CMakeFiles/Cosy12_Model4.dir

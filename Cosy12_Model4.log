@@ -1,0 +1,2891 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=mex 2025.3.17)  17 MAR 2025 16:04
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**Cosy12_Model4.cpp
+(./Cosy12_Model4.cpp
+This is MeX  Version 1.05  18 XII 1993  (B. Jackowski & M. Ry\'cko)
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.2  * Cosy12_
+              Model4.cpp
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.16 
+     
+? 
+
+Overfull \hbox (73.3246pt too wide) in paragraph at lines 1--16
+[]\tenrm /* * Cosy12$[]\teni odel\tenrm 4\teni :cpp \tensy ^^C ^^C\teni Codegen
+erationformodel\tenrm "\teni Cosy\tenrm 12[]\teni odel\tenrm 4"\teni : \tensy ^
+^C ^^C\teni Modelversion \tenrm : 13\teni :\tenrm 149 \tensy ^^C \teni Simulink
+Coderversion \tenrm :|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm /
+.\tenrm *
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm *
+.etc.
+
+
+Overfull \hbox (42.05013pt too wide) in paragraph at lines 1--16
+\teni grt:tlc \tensy ^^C \teni Note \tenrm : \teni GRTincludesextrainfrastructu
+reandinstrumentationforprototyping \tensy ^^C \teni Embeddedhardwareselection \
+tenrm :|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\teni g
+.\kern0.35878
+.\teni r
+.\kern0.27779
+.\teni t
+.etc.
+
+! You can't use `macro parameter character #' in vertical mode.
+l.17 #
+      include "Cosy12_Model4.h"
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.17 #include "Cosy12_
+                      Model4.h"
+? 
+! You can't use `macro parameter character #' in math mode.
+l.18 #
+      include "rt_look.h"
+? 
+! You can't use `macro parameter character #' in math mode.
+l.19 #
+      include "rt_look1d.h"
+? 
+! You can't use `macro parameter character #' in math mode.
+l.20 #
+      include "rtwtypes.h"
+? 
+! You can't use `macro parameter character #' in math mode.
+l.21 #
+      include <cstring>
+? 
+! You can't use `macro parameter character #' in math mode.
+l.22 #
+      include "rt_logging_mmi.h"
+? 
+! You can't use `macro parameter character #' in math mode.
+l.23 #
+      include "Cosy12_Model4_capi.h"
+? 
+! You can't use `macro parameter character #' in math mode.
+l.24 #
+      include "Cosy12_Model4_private.h"
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.25 
+     
+? 
+
+Overfull \hbox (9.64319pt too wide) in paragraph at lines 17--25
+[]\tenrm include "Cosy12$[]\teni odel\tenrm 4\teni :h\tenrm "\teni include\tenr
+m "\teni rt[]ook:h\tenrm "\teni include\tenrm "\teni rt[]ook\tenrm 1\teni d:h\t
+enrm "\teni include\tenrm "\teni rtwtypes:h\tenrm "\teni include < cstring >|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm i
+.\tenrm n
+.\tenrm c
+.\tenrm l
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.26 real_
+          T look2_binlxpw(real_T u0, real_T u1, const real_T bp0[], const re...
+
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.38 
+     
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+<to be read again> 
+                   \par 
+l.38 
+     
+? 
+
+Overfull \hbox (642.37291pt too wide) in paragraph at lines 26--38
+[]\tenrm real$[]\teni look\tenrm 2[]\teni inlxpw\tenrm (\teni real[]u\tenrm 0\t
+eni ; real[]u\tenrm 1\teni ; constreal[]bp\tenrm 0[]\teni ; constreal[]bp\tenrm
+ 1[]\teni ; constreal[]table\tenrm []\teni ; constuint\tenrm 32[]\teni maxIndex
+\tenrm []\teni ; uint\tenrm 32[]\teni stride\tenrm )[]$ |
+
+\hbox(7.5+2.5)x469.75499
+.\hbox(0.0+0.0)x20.0
+.\tenrm r
+.\tenrm e
+.\tenrm a
+.\tenrm l
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.120   yL_
+           0d0 = table[bpIdx];
+? 
+! Extra }, or forgotten $.
+l.126 }
+       
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.127 
+      
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.129 void Cosy12_
+                  Model4_step(RT_MODEL_Cosy12_Model4_T *const Cosy12_Model4_M)
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.133 
+      
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+<to be read again> 
+                   \par 
+l.133 
+      
+? 
+
+Overfull \hbox (472.07036pt too wide) in paragraph at lines 128--133
+[]\tenrm /* Mo-del step func-tion */ void Cosy12$[]\teni odel\tenrm 4[]\teni te
+p\tenrm (\teni RT[]ODEL[]osy\tenrm 12[]\teni odel\tenrm 4[] \tensy ^^C \teni co
+nstCosy\tenrm 12[]\teni odel\tenrm 4[])[]$ |
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm /
+.\tenrm *
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm M
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.134   ExtY_
+             Cosy12_Model4_T *Cosy12_Model4_Y{ static_cast<ExtY_Cosy12_Model...
+
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.136 
+      
+? 
+
+Overfull \hbox (24.827pt too wide) in paragraph at lines 134--136
+[]\tenrm ExtY$[]\teni osy\tenrm 12[]\teni odel\tenrm 4[] \tensy ^^C \teni Cosy\
+tenrm 12[]\teni odel\tenrm 4[][];$ |
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm E
+.\tenrm x
+.\tenrm t
+.\tenrm Y
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.137   real_
+             T rtb_Add2;
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.144 
+      
+? 
+
+Overfull \hbox (32.08511pt too wide) in paragraph at lines 137--144
+[]\tenrm real$[]\teni rtb[]dd\tenrm 2; \teni real[]rtb[]ain\tenrm ; \teni real[
+]rtb[]\tenrm 1[]\teni mp\tenrm ; \teni real[]rtb[]\tenrm 1[]\teni mp[]\tenrm ; 
+\teni real[]rtb[]\tenrm 1[]\teni mp[]\tenrm ; \teni real[]rtb[]\tenrm 1[]\teni 
+mp[]\tenrm ; \teni real[]rtb[]\tenrm 1[]\teni mp[]\tenrm ;$ |
+
+\hbox(6.94444+2.86108)x469.75499
+.\hbox(0.0+0.0)x20.0
+.\tenrm r
+.\tenrm e
+.\tenrm a
+.\tenrm l
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.146   rtb_
+            Gain = 1000.0 * Cosy12_Model4_U->Inport2;
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.147 
+      
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.156   Cosy12_
+               Model4_Y->OUTPUT6 = rtb_Gain / (4180.0 * Cosy12_Model4_U->Inp...
+
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.158 
+      
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.160   Cosy12_
+               Model4_Y->OUTPUT11 = rt_Lookup
+? 
+! Misplaced alignment tab character &.
+l.161     (&
+            Cosy12_Model4_ConstP.LookupTable3_XData[0], 4, Cosy12_Model4_Y->...
+
+? 
+! Misplaced alignment tab character &.
+l.162      &
+            Cosy12_Model4_ConstP.LookupTable3_YData[0]);
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.163 
+      
+? 
+
+Overfull \hbox (230.222pt too wide) in paragraph at lines 159--163
+[]\tenrm /* Lo-okup: '<Root>/Lookup Ta-ble3' */ Cosy12$[]\teni odel\tenrm 4[]\t
+ensy ^^@ \teni > OUTPUT\tenrm 11 = \teni rt[]ookup\tenrm (\teni Cosy\tenrm 12[]
+\teni odel\tenrm 4[]\teni onstP:LookupTable\tenrm 3[]\teni Data\tenrm [0]\teni 
+; \tenrm 4\teni ; Cosy\tenrm 12[]\teni odel\tenrm 4[]\tensy ^^@ \teni >|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm /
+.\tenrm *
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm L
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.165   Cosy12_
+               Model4_Y->OUTPUT3 = (Cosy12_Model4_U->Inport1 -
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.167 
+      
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.169   Cosy12_
+               Model4_Y->OUTPUT8 = rt_Lookup(&Cosy12_Model4_ConstP.pooled3[0...
+
+? 
+! Misplaced alignment tab character &.
+l.169   Cosy12_Model4_Y->OUTPUT8 = rt_Lookup(&
+                                              Cosy12_Model4_ConstP.pooled3[0...
+
+? 
+! Misplaced alignment tab character &.
+l.170     Cosy12_Model4_Y->OUTPUT3, &
+                                     Cosy12_Model4_ConstP.pooled4[0]);
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.171 
+      
+? 
+
+Overfull \hbox (222.39041pt too wide) in paragraph at lines 168--171
+[]\tenrm /* Lo-okup: '<Root>/Temperature to Pres-sure2' */ Cosy12$[]\teni odel\
+tenrm 4[]\tensy ^^@ \teni > OUTPUT\tenrm 8 = \teni rt[]ookup\tenrm (\teni Cosy\
+tenrm 12[]\teni odel\tenrm 4[]\teni onstP:pooled\tenrm 3[0]\teni ; \tenrm 101\t
+eni ; Cosy\tenrm 12[]\teni odel\tenrm 4[]\tensy ^^@ \teni >|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm /
+.\tenrm *
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm L
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.173   Cosy12_
+               Model4_Y->OUTPUT5 = rt_Lookup(&Cosy12_Model4_ConstP.LookupTab...
+
+? 
+! Misplaced alignment tab character &.
+l.173   Cosy12_Model4_Y->OUTPUT5 = rt_Lookup(&
+                                              Cosy12_Model4_ConstP.LookupTab...
+
+? 
+! Misplaced alignment tab character &.
+l.174     [0], 5, Cosy12_Model4_Y->OUTPUT8, &
+                                             Cosy12_Model4_ConstP.LookupTabl...
+
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.175 
+      
+? 
+
+Overfull \hbox (225.22198pt too wide) in paragraph at lines 172--175
+[]\tenrm /* Lo-okup: '<Root>/Lookup Ta-ble2' */ Cosy12$[]\teni odel\tenrm 4[]\t
+ensy ^^@ \teni > OUTPUT\tenrm 5 = \teni rt[]ookup\tenrm (\teni Cosy\tenrm 12[]\
+teni odel\tenrm 4[]\teni onstP:LookupTable\tenrm 2[]\teni Data\tenrm [0]\teni ;
+ \tenrm 5\teni ; Cosy\tenrm 12[]\teni odel\tenrm 4[]\tensy ^^@ \teni >|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm /
+.\tenrm *
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm L
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.177   Cosy12_
+               Model4_Y->OUTPUT12 = rt_Lookup
+? 
+! Misplaced alignment tab character &.
+l.178     (&
+            Cosy12_Model4_ConstP.LookupTable1_XData[0], 4, Cosy12_Model4_Y->...
+
+? 
+! Misplaced alignment tab character &.
+l.179      &
+            Cosy12_Model4_ConstP.LookupTable1_YData[0]);
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.180 
+      
+? 
+
+Overfull \hbox (230.222pt too wide) in paragraph at lines 176--180
+[]\tenrm /* Lo-okup: '<Root>/Lookup Ta-ble1' */ Cosy12$[]\teni odel\tenrm 4[]\t
+ensy ^^@ \teni > OUTPUT\tenrm 12 = \teni rt[]ookup\tenrm (\teni Cosy\tenrm 12[]
+\teni odel\tenrm 4[]\teni onstP:LookupTable\tenrm 1[]\teni Data\tenrm [0]\teni 
+; \tenrm 4\teni ; Cosy\tenrm 12[]\teni odel\tenrm 4[]\tensy ^^@ \teni >|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm /
+.\tenrm *
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm L
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.184   Cosy12_
+               Model4_Y->OUTPUT10 = (((((((((0.581462113 * Cosy12_Model4_Y->...
+
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.195 
+      
+? 
+
+Overfull \hbox (2.29053pt too wide) in paragraph at lines 181--195
+\teni Inport\tenrm ) + \tensy ^^@\tenrm 4\teni :\tenrm 03835\teni E \tensy ^^@ 
+\tenrm 5 \tensy ^^C \teni Cosy\tenrm 12[]\teni odel\tenrm 4[]\tensy ^^@ \teni >
+ OUTPUT\tenrm 3 \tensy ^^C \teni Cosy\tenrm 12[]\teni odel\tenrm 4[]\tensy ^^@ 
+\teni > Inport \tensy ^^C \teni Cosy\tenrm 12[]\teni odel\tenrm 4[]\tensy ^^@ \
+teni >|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\teni I
+.\kern0.7847
+.\teni n
+.\teni p
+.\teni o
+.etc.
+
+[1]
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.198    *  Lookup_
+                   n-D: '<Root>/2-D Lookup Table'
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.228 
+      
+? 
+
+Overfull \hbox (24.57709pt too wide) in paragraph at lines 196--228
+[]\tenrm /* MA-TLAB Func-tion: '<Root>/Compressor Suc-tion Mass(g//s) //RPM' in
+-cor-po-ra-tes: * Gain: '<Root>/Gain4'|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm /
+.\tenrm *
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm M
+.etc.
+
+
+Overfull \hbox (4.86444pt too wide) in paragraph at lines 196--228
+\teni Cosy\tenrm 12[]\teni odel\tenrm 4[]\tensy ^^@ \teni > OUTPUT\tenrm 10\ten
+i =\tenrm (1\teni :\tenrm 0\teni =look\tenrm 2[]\teni inlxpw\tenrm (\teni Cosy\
+tenrm 12[]\teni odel\tenrm 4[]\tensy ^^@ \teni > OUTPUT\tenrm 3\teni ; Cosy\ten
+rm 12[]\teni odel\tenrm 4[]\tensy ^^@ \teni >|
+
+\hbox(7.5+2.5)x469.75499
+.\teni C
+.\kern0.71527
+.\teni o
+.\teni s
+.\teni y
+.etc.
+
+
+Overfull \hbox (472.2604pt too wide) in paragraph at lines 196--228
+\teni Inport\tenrm 7\teni ; Cosy\tenrm 12[]\teni odel\tenrm 4[]\teni onstP:uDLo
+okupTable[]p\tenrm 01\teni Data; Cosy\tenrm 12[]\teni odel\tenrm 4[]\teni onstP
+:uDLookupTable[]p\tenrm 02\teni Data; Cosy\tenrm 12[]\teni odel\tenrm 4[]\teni 
+onstP:uDLookupTable[]ableData; Cosy\tenrm 12[]\teni odel\tenrm 4[]\teni onstP:u
+DLookupTable[]axIndex; \tenrm 23\teni U\tenrm ) \tensy ^^C|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\teni I
+.\kern0.7847
+.\teni n
+.\teni p
+.\teni o
+.etc.
+
+
+Overfull \hbox (24.59467pt too wide) in paragraph at lines 196--228
+\tenrm 1\teni :\tenrm 0\teni E \tenrm + 6)\teni =\tenrm 4\teni :\tenrm 67000000
+00000003\teni E \tensy ^^@ \tenrm 5 \tensy ^^C \tenrm 60\teni :\tenrm 0; \teni 
+Cosy\tenrm 12[]\teni odel\tenrm 4[]\tensy ^^@ \teni > OUTPUT\tenrm 2 = \teni rt
+b[]dd\tenrm 2 \tensy ^^C \tenrm 0\teni :\tenrm 0557 + \teni rtb[]dd\tenrm 2; \t
+eni rtb[]dd\tenrm 2 =|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm 1
+.\teni :
+.\tenrm 0
+.\teni E
+.\kern0.57637
+.etc.
+
+
+Overfull \hbox (6.49734pt too wide) in paragraph at lines 196--228
+\teni Cosy\tenrm 12[]\teni odel\tenrm 4[]\tensy ^^@ \teni > OUTPUT\tenrm 3 \ten
+sy ^^C \teni Cosy\tenrm 12[]\teni odel\tenrm 4[]\tensy ^^@ \teni > Inport\tenrm
+ ; \teni rtb[]\tenrm 1[]\teni mp \tenrm = \teni Cosy\tenrm 12[]\teni odel\tenrm
+ 4[]\tensy ^^@ \teni > OUTPUT\tenrm 3 \tensy ^^C|
+
+\hbox(6.94444+2.86108)x469.75499, glue set - 1.0
+.\teni C
+.\kern0.71527
+.\teni o
+.\teni s
+.\teni y
+.etc.
+
+
+Overfull \hbox (43.52177pt too wide) in paragraph at lines 196--228
+\teni Cosy\tenrm 12[]\teni odel\tenrm 4[]\tensy ^^@ \teni > OUTPUT\tenrm 3; \te
+ni rtb[]\tenrm 1[]\teni mp[] \tenrm = \teni Cosy\tenrm 12[]\teni odel\tenrm 4[]
+\tensy ^^@ \teni > Inport \tensy ^^C \teni Cosy\tenrm 12[]\teni odel\tenrm 4[]\
+tensy ^^@ \teni > Inport\tenrm ; \teni rtb[]\tenrm 1[]\teni mp[] \tenrm =|
+
+\hbox(6.94444+2.86108)x469.75499, glue set - 1.0
+.\teni C
+.\kern0.71527
+.\teni o
+.\teni s
+.\teni y
+.etc.
+
+
+Overfull \hbox (8.43053pt too wide) in paragraph at lines 196--228
+\teni Inport \tensy ^^C \teni Cosy\tenrm 12[]\teni odel\tenrm 4[]\tensy ^^@ \te
+ni > OUTPUT\tenrm 2; \teni rtb[]\tenrm 1[]\teni mp[] \tenrm = \teni Cosy\tenrm 
+12[]\teni odel\tenrm 4[]\tensy ^^@ \teni > OUTPUT\tenrm 2 \tensy ^^C \teni Cosy
+\tenrm 12[]\teni odel\tenrm 4[]\tensy ^^@ \teni >|
+
+\hbox(6.94444+2.86108)x469.75499, glue set - 1.0
+.\teni I
+.\kern0.7847
+.\teni n
+.\teni p
+.\teni o
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.230   rtb_
+            Add2 = (Cosy12_Model4_Y->OUTPUT11 + Cosy12_Model4_Y->OUTPUT12) +
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.232 
+      
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.234   if (Cosy12_
+                   Model4_ConstB.Compare == 0) {
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.243 
+      
+? 
+
+Overfull \hbox (1355.42082pt too wide) in paragraph at lines 233--243
+[]\tenrm /* Mul-ti-Port-Switch: '<S6>/Multiport Switch1' */ if (Cosy12$[]\teni 
+odel\tenrm 4[]\teni onstB:Compare \tenrm == 0)[]\teni else[]$ |
+
+\hbox(7.51782+2.86108)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm /
+.\tenrm *
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm M
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.250   if (!(rtb_
+                  Add2 == 0.0)) {
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.261 
+      
+? 
+
+Overfull \hbox (1490.45145pt too wide) in paragraph at lines 246--261
+\tenrm pe-ra-tor: '<S5>/Compare' */ if (!(rtb$[]\teni dd\tenrm 2 == 0\teni :\te
+nrm 0))[]\teni else[]$ |
+
+\hbox(7.51782+2.5)x469.75499, glue set - 1.0
+.\tenrm p
+.\kern0.27779
+.\tenrm e
+.\discretionary
+..\tenrm -
+.\tenrm r
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.265   if (Cosy12_
+                   Model4_Y->OUTPUT1 <= 0.0) {
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.271 
+      
+? 
+
+Overfull \hbox (531.95258pt too wide) in paragraph at lines 264--271
+[]\tenrm /* Sa-tu-rate: '<Root>/Saturation1' */ if (Cosy12$[]\teni odel\tenrm 4
+[]\tensy ^^@ \teni > OUTPUT\tenrm 1 \teni <\tenrm = 0\teni :\tenrm 0)[]$ |
+
+\hbox(7.51782+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm /
+.\tenrm *
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm S
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.278   Cosy12_
+               Model4_Y->OUTPUT4 = ((Cosy12_Model4_U->Inport -
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.281 
+      
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.285   Cosy12_
+               Model4_Y->OUTPUT9 = rt_Lookup(&Cosy12_Model4_ConstP.pooled3[0...
+
+? 
+! Misplaced alignment tab character &.
+l.285   Cosy12_Model4_Y->OUTPUT9 = rt_Lookup(&
+                                              Cosy12_Model4_ConstP.pooled3[0...
+
+? 
+! Misplaced alignment tab character &.
+l.286     Cosy12_Model4_U->Inport, &
+                                    Cosy12_Model4_ConstP.pooled4[0]);
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.287 
+      
+? 
+
+Overfull \hbox (51.98976pt too wide) in paragraph at lines 282--287
+[]\tenrm /* Out-port: '<Root>/OUTPUT9' in-cor-po-ra-tes: * Lo-okup: '<Root>/Tem
+perature to Pres-sure1' */ Cosy12$[]\teni odel\tenrm 4[]\tensy ^^@ \teni >|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm /
+.\tenrm *
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm O
+.etc.
+
+
+Overfull \hbox (81.73024pt too wide) in paragraph at lines 282--287
+\teni OUTPUT\tenrm 9 = \teni rt[]ookup\tenrm (\teni Cosy\tenrm 12[]\teni odel\t
+enrm 4[]\teni onstP:pooled\tenrm 3[0]\teni ; \tenrm 101\teni ; Cosy\tenrm 12[]\
+teni odel\tenrm 4[]\tensy ^^@ \teni > Inport; Cosy\tenrm 12[]\teni odel\tenrm 4
+[]\teni onstP:pooled\tenrm 4[0]);$ |
+
+\hbox(7.5+2.5)x469.75499
+.\teni O
+.\kern0.27779
+.\teni U
+.\kern1.09026
+.\teni T
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.289   rt_
+           UpdateTXYLogVars(Cosy12_Model4_M->rtwLogInfo,
+? 
+! Misplaced alignment tab character &.
+l.290                       (&
+                              Cosy12_Model4_M->Timing.taskTime0));
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.291 
+      
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.294     if ((rtmGetTFinal(Cosy12_
+                                   Model4_M)!=-1) &&
+? 
+! Misplaced alignment tab character &.
+l.294 ...if ((rtmGetTFinal(Cosy12_Model4_M)!=-1) &
+                                                  &
+? 
+! Misplaced alignment tab character &.
+l.294 ...f ((rtmGetTFinal(Cosy12_Model4_M)!=-1) &&
+                                                  
+? 
+! Extra }, or forgotten $.
+l.299   }
+         
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.300 
+      
+? 
+
+Overfull \hbox (12.56813pt too wide) in paragraph at lines 292--300
+[]\tenrm /* si-gnal main to stop si-mu-la-tion */  /* Sam-ple time: [0.01s, 0.0
+s] */ if ((rtmGetTFinal(Cosy12$[]\teni odel\tenrm 4[])! =|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm /
+.\tenrm *
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm s
+.etc.
+
+
+Overfull \hbox (0.8989pt too wide) in paragraph at lines 292--300
+\tensy ^^@\tenrm 1)!((\teni rtmGetTFinal\tenrm (\teni Cosy\tenrm 12[]\teni odel
+\tenrm 4[]) \tensy ^^@ \teni Cosy\tenrm 12[]\teni odel\tenrm 4[]\tensy ^^@ \ten
+i > Timing:taskTime\tenrm 0) \teni > Cosy\tenrm 12[]\teni odel\tenrm 4[]\tensy 
+^^@ \teni >|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tensy ^^@
+.\tenrm 1
+.\tenrm )
+.\tenrm !
+.\tenrm (
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.310   if (!(++Cosy12_
+                       Model4_M->Timing.clockTick0)) {
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.313 
+      
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.314   Cosy12_
+               Model4_M->Timing.taskTime0 = Cosy12_Model4_M->Timing.clockTic...
+
+? 
+! Extra }, or forgotten $.
+l.317 }
+       
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.318 
+      
+? 
+
+Overfull \hbox (17.39388pt too wide) in paragraph at lines 314--318
+[]\tenrm Cosy12$[]\teni odel\tenrm 4[]\tensy ^^@ \teni > Timing:taskTime\tenrm 
+0 = \teni Cosy\tenrm 12[]\teni odel\tenrm 4[]\tensy ^^@ \teni > Timing:clockTic
+k\tenrm 0 \tensy ^^C \teni Cosy\tenrm 12[]\teni odel\tenrm 4[]\tensy ^^@ \teni 
+>|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm C
+.\tenrm o
+.\tenrm s
+.\tenrm y
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.320 void Cosy12_
+                  Model4_initialize(RT_MODEL_Cosy12_Model4_T *const Cosy12_M...
+
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.324 
+      
+? 
+
+Overfull \hbox (242.36098pt too wide) in paragraph at lines 319--324
+[]\tenrm /* Mo-del in-i-tia-lize func-tion */ void Cosy12$[]\teni odel\tenrm 4[
+]\teni nitialize\tenrm (\teni RT[]ODEL[]osy\tenrm 12[]\teni odel\tenrm 4[] \ten
+sy ^^C \teni constCosy\tenrm 12[]\teni odel\tenrm 4[])[]$ |
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm /
+.\tenrm *
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm M
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.326 void Cosy12_
+                  Model4_terminate(RT_MODEL_Cosy12_Model4_T * Cosy12_Model4_M)
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.331 
+      
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+<to be read again> 
+                   \par 
+l.331 
+      
+? 
+
+Overfull \hbox (449.6617pt too wide) in paragraph at lines 325--331
+[]\tenrm /* Mo-del ter-mi-nate func-tion */ void Cosy12$[]\teni odel\tenrm 4[]\
+teni erminate\tenrm (\teni RT[]ODEL[]osy\tenrm 12[]\teni odel\tenrm 4[] \tensy 
+^^C \teni Cosy\tenrm 12[]\teni odel\tenrm 4[])[]$ |
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm /
+.\tenrm *
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm M
+.etc.
+
+[2]
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.333 ...r{ (void *) rtliGetLogXSignalPtrs(Cosy12_
+                                                  Model4_M->rtwLogInfo) };
+? 
+! Extra }, or forgotten $.
+l.333 ...SignalPtrs(Cosy12_Model4_M->rtwLogInfo) }
+                                                  ;
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.334 
+      
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.335 ...r{ (void *) rtliGetLogYSignalPtrs(Cosy12_
+                                                  Model4_M->rtwLogInfo) };
+? 
+! Extra }, or forgotten $.
+l.335 ...SignalPtrs(Cosy12_Model4_M->rtwLogInfo) }
+                                                  ;
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.336 
+      
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.337     rt_
+             FREE(xptr);
+? 
+! Extra }, or forgotten $.
+l.339   }
+         
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.340 
+      
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.341   rt_
+           FREE(Cosy12_Model4_M->rtwLogInfo);
+? 
+! Extra }, or forgotten $.
+l.343 }
+       
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.344 
+      
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.346 RT_
+         MODEL_Cosy12_Model4_T *Cosy12_Model4(void)
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.353 
+      
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+<to be read again> 
+                   \par 
+l.353 
+      
+? 
+
+Overfull \hbox (601.01724pt too wide) in paragraph at lines 345--353
+[]\tenrm /* Mo-del data al-lo-ca-tion func-tion */ RT$[]\teni ODEL[]osy\tenrm 1
+2[]\teni odel\tenrm 4[] \tensy ^^C \teni Cosy\tenrm 12[]\teni odel\tenrm 4(\ten
+i void\tenrm )[]$ |
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm /
+.\tenrm *
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm M
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.356     RTWLogInfo *rt_
+                         DataLoggingInfo{ (RTWLogInfo *) malloc(sizeof(RTWLo...
+
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.357 
+      
+? 
+
+Overfull \hbox (44.23267pt too wide) in paragraph at lines 354--357
+[]\tenrm /* Se-tup for data log-ging */  RTW-Lo-gInfo *rt$[]\teni ataLoggingInf
+o[]\tenrm ;$ |
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm /
+.\tenrm *
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm S
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.358     rt_
+             VALIDATE_MEMORY(Cosy12_Model4_M,rt_DataLoggingInfo);
+? 
+! Extra }, or forgotten $.
+l.361   }
+         
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.362 
+      
+? 
+
+Overfull \hbox (35.43953pt too wide) in paragraph at lines 358--362
+[]\tenrm rt$[]\teni ALIDATE[]EMORY\tenrm (\teni Cosy\tenrm 12[]\teni odel\tenrm
+ 4[]\teni ; rt[]ataLoggingInfo\tenrm ); \teni rt[]ataLoggingInfo\tensy ^^@ \ten
+i > loggingInterval \tenrm =|
+
+\hbox(7.5+2.5)x469.75499
+.\hbox(0.0+0.0)x20.0
+.\tenrm r
+.\tenrm t
+.\mathon
+.\hbox(4.78334+0.0)x6.94447, shifted 1.49998
+..\seveni V
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.365     rtliSetLogXSignalInfo(Cosy12_
+                                       Model4_M->rtwLogInfo, (nullptr));
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.367 
+      
+? 
+
+Overfull \hbox (174.01477pt too wide) in paragraph at lines 363--367
+[]\tenrm /* Se-tup for data log-ging */  rtliSetLogXSignalInfo(Cosy12$[]\teni o
+del\tenrm 4[]\tensy ^^@ \teni > rtwLogInfo; \tenrm (\teni nullptr\tenrm )); \te
+ni rtliSetLogXSignalPtrs\tenrm (\teni Cosy\tenrm 12[]\teni odel\tenrm 4[]\tensy
+ ^^@ \teni >|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm /
+.\tenrm *
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm S
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.372       void **rt_
+                      LoggedOutputSignalPtrs{ (void **)malloc(13*sizeof(void...
+
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.373 
+      
+? 
+
+Overfull \hbox (130.18777pt too wide) in paragraph at lines 368--373
+[]\tenrm /* * Set po-in-ters to the data and si-gnal info for each out-put */  
+void **rt$[]\teni oggedOutputSignalPtrs[]\tenrm ;$ |
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm /
+.\tenrm *
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm *
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.374       rt_
+               VALIDATE_MEMORY(Cosy12_Model4_M,rt_LoggedOutputSignalPtrs);
+? 
+! Extra }, or forgotten $.
+l.377     }
+           
+? 
+! Extra }, or forgotten $.
+l.378   }
+         
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.379 
+      
+? 
+
+Overfull \hbox (78.93913pt too wide) in paragraph at lines 374--379
+[]\tenrm rt$[]\teni ALIDATE[]EMORY\tenrm (\teni Cosy\tenrm 12[]\teni odel\tenrm
+ 4[]\teni ; rt[]oggedOutputSignalPtrs\tenrm ); \teni rtliSetLogYSignalPtrs\tenr
+m (\teni Cosy\tenrm 12[]\teni odel\tenrm 4[]\tensy ^^@ \teni >|
+
+\hbox(7.5+2.5)x469.75499
+.\hbox(0.0+0.0)x20.0
+.\tenrm r
+.\tenrm t
+.\mathon
+.\hbox(4.78334+0.0)x6.94447, shifted 1.49998
+..\seveni V
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.382     ExtU_
+               Cosy12_Model4_T *Cosy12_Model4_U{ static_cast<ExtU_Cosy12_Mod...
+
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.384 
+      
+? 
+
+Overfull \hbox (159.22614pt too wide) in paragraph at lines 380--384
+[]\tenrm /* exter-nal in-puts */  ExtU$[]\teni osy\tenrm 12[]\teni odel\tenrm 4
+[] \tensy ^^C \teni Cosy\tenrm 12[]\teni odel\tenrm 4[][];$ |
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm /
+.\tenrm *
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm e
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.385     rt_
+             VALIDATE_MEMORY(Cosy12_Model4_M,Cosy12_Model4_U);
+? 
+! Extra }, or forgotten $.
+l.388   }
+         
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.389 
+      
+? 
+
+Overfull \hbox (24.67885pt too wide) in paragraph at lines 385--389
+[]\tenrm rt$[]\teni ALIDATE[]EMORY\tenrm (\teni Cosy\tenrm 12[]\teni odel\tenrm
+ 4[]\teni ; Cosy\tenrm 12[]\teni odel\tenrm 4[]); \teni Cosy\tenrm 12[]\teni od
+el\tenrm 4[]\tensy ^^@ \teni > inputs \tenrm = ((\teni static[]ast <|
+
+\hbox(7.5+2.5)x469.75499
+.\hbox(0.0+0.0)x20.0
+.\tenrm r
+.\tenrm t
+.\mathon
+.\hbox(4.78334+0.0)x6.94447, shifted 1.49998
+..\seveni V
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.392     ExtY_
+               Cosy12_Model4_T *Cosy12_Model4_Y{ static_cast<ExtY_Cosy12_Mod...
+
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.394 
+      
+? 
+
+Overfull \hbox (163.5176pt too wide) in paragraph at lines 390--394
+[]\tenrm /* exter-nal out-puts */  ExtY$[]\teni osy\tenrm 12[]\teni odel\tenrm 
+4[] \tensy ^^C \teni Cosy\tenrm 12[]\teni odel\tenrm 4[][];$ |
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm /
+.\tenrm *
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm e
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.395     rt_
+             VALIDATE_MEMORY(Cosy12_Model4_M,Cosy12_Model4_Y);
+? 
+! Extra }, or forgotten $.
+l.397   }
+         
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.398 
+      
+? 
+
+Overfull \hbox (50.58192pt too wide) in paragraph at lines 395--398
+[]\tenrm rt$[]\teni ALIDATE[]EMORY\tenrm (\teni Cosy\tenrm 12[]\teni odel\tenrm
+ 4[]\teni ; Cosy\tenrm 12[]\teni odel\tenrm 4[]); \teni Cosy\tenrm 12[]\teni od
+el\tenrm 4[]\tensy ^^@ \teni > outputs \tenrm = (\teni Cosy\tenrm 12[]\teni ode
+l\tenrm 4[]);$ |
+
+\hbox(7.5+2.5)x469.75499
+.\hbox(0.0+0.0)x20.0
+.\tenrm r
+.\tenrm t
+.\mathon
+.\hbox(4.78334+0.0)x6.94447, shifted 1.49998
+..\seveni V
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.400   Cosy12_
+               Model4_InitializeDataMapInfo(Cosy12_Model4_M);
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.401 
+      
+? 
+
+Overfull \hbox (128.60504pt too wide) in paragraph at lines 399--401
+[]\tenrm /* In-i-tia-lize Da-ta-Ma-pInfo sub-struc-ture con-ta-ining Mo-del-Map
+ for C API */ Cosy12$[]\teni odel\tenrm 4[]\teni nitializeDataMapInfo\tenrm (\t
+eni Cosy\tenrm 12[]\teni odel\tenrm 4[]);$ |
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm /
+.\tenrm *
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm I
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.403     ExtU_
+               Cosy12_Model4_T *Cosy12_Model4_U{ static_cast<ExtU_Cosy12_Mod...
+
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.405 
+      
+? 
+
+Overfull \hbox (20.889pt too wide) in paragraph at lines 403--405
+[]\tenrm ExtU$[]\teni osy\tenrm 12[]\teni odel\tenrm 4[] \tensy ^^C \teni Cosy\
+tenrm 12[]\teni odel\tenrm 4[][];$ |
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm E
+.\tenrm x
+.\tenrm t
+.\tenrm U
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.406     ExtY_
+               Cosy12_Model4_T *Cosy12_Model4_Y{ static_cast<ExtY_Cosy12_Mod...
+
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.408 
+      
+? 
+
+Overfull \hbox (24.827pt too wide) in paragraph at lines 406--408
+[]\tenrm ExtY$[]\teni osy\tenrm 12[]\teni odel\tenrm 4[] \tensy ^^C \teni Cosy\
+tenrm 12[]\teni odel\tenrm 4[][];$ |
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm E
+.\tenrm x
+.\tenrm t
+.\tenrm Y
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.409     rtmSetTFinal(Cosy12_
+                              Model4_M, 20000.0);
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.411 
+      
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.414       rtliSetLogT(Cosy12_
+                               Model4_M->rtwLogInfo, "tout");
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.421 
+      
+? 
+
+Overfull \hbox (67.69669pt too wide) in paragraph at lines 412--421
+[]\tenrm /* Se-tup for data log-ging */  rtliSetLogT(Cosy12$[]\teni odel\tenrm 
+4[]\tensy ^^@ \teni > rtwLogInfo; \tenrm "\teni tout\tenrm "); \teni rtliSetLog
+X\tenrm (\teni Cosy\tenrm 12[]\teni odel\tenrm 4[]\tensy ^^@ \teni >|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm /
+.\tenrm *
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm S
+.etc.
+
+
+Overfull \hbox (96.3477pt too wide) in paragraph at lines 412--421
+\teni rtwLogInfo; \tenrm ""); \teni rtliSetLogXFinal\tenrm (\teni Cosy\tenrm 12
+[]\teni odel\tenrm 4[]\tensy ^^@ \teni > rtwLogInfo; \tenrm ""); \teni rtliSetL
+ogVarNameModifier\tenrm (\teni Cosy\tenrm 12[]\teni odel\tenrm 4[]\tensy ^^@ \t
+eni >|
+
+\hbox(7.5+2.5)x469.75499
+.\teni r
+.\kern0.27779
+.\teni t
+.\teni w
+.\kern0.26909
+.etc.
+
+
+Overfull \hbox (56.86063pt too wide) in paragraph at lines 412--421
+\teni rtwLogInfo; \tenrm "\teni rt[]\tenrm ); \teni rtliSetLogFormat\tenrm (\te
+ni Cosy\tenrm 12[]\teni odel\tenrm 4[]\tensy ^^@ \teni > rtwLogInfo; \tenrm 0);
+ \teni rtliSetLogMaxRows\tenrm (\teni Cosy\tenrm 12[]\teni odel\tenrm 4[]\tensy
+ ^^@ \teni >|
+
+\hbox(7.5+2.5)x469.75499
+.\teni r
+.\kern0.27779
+.\teni t
+.\teni w
+.\kern0.26909
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.426 ... ((void **) rtliGetLogYSignalPtrs(Cosy12_
+                                                  Model4_M->rtwLogInfo))[0] =
+? 
+! Misplaced alignment tab character &.
+l.427           &
+                 Cosy12_Model4_Y->OUTPUT1;
+? 
+! Misplaced alignment tab character &.
+l.429           &
+                 Cosy12_Model4_Y->OUTPUT2;
+? 
+! Misplaced alignment tab character &.
+l.431           &
+                 Cosy12_Model4_Y->OUTPUT3;
+? 
+! Misplaced alignment tab character &.
+l.433           &
+                 Cosy12_Model4_Y->OUTPUT4;
+? 
+! Misplaced alignment tab character &.
+l.435           &
+                 Cosy12_Model4_Y->OUTPUT5;
+? 
+! Misplaced alignment tab character &.
+l.437           &
+                 Cosy12_Model4_Y->OUTPUT6;
+? 
+! Misplaced alignment tab character &.
+l.439           &
+                 Cosy12_Model4_Y->OUTPUT7;
+? 
+! Misplaced alignment tab character &.
+l.441           &
+                 Cosy12_Model4_Y->OUTPUT8;
+? 
+! Misplaced alignment tab character &.
+l.443           &
+                 Cosy12_Model4_Y->OUTPUT9;
+? 
+! Misplaced alignment tab character &.
+l.445           &
+                 Cosy12_Model4_Y->OUTPUT10;
+? 
+! Misplaced alignment tab character &.
+l.447           &
+                 Cosy12_Model4_Y->OUTPUT11;
+? 
+! Misplaced alignment tab character &.
+l.449           &
+                 Cosy12_Model4_Y->OUTPUT12;
+? 
+! Misplaced alignment tab character &.
+l.451           &
+                 Cosy12_Model4_Y->OUTPUT13;
+? 
+! Extra }, or forgotten $.
+l.452       }
+             
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.453 
+      
+? 
+
+Overfull \hbox (55.1793pt too wide) in paragraph at lines 422--453
+[]\tenrm /* * Set po-in-ters to the data and si-gnal info for each out-put */  
+((void **) rtliGetLogYSignalPtrs(Cosy12$[]\teni odel\tenrm 4[]\tensy ^^@ \teni 
+>|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm /
+.\tenrm *
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm *
+.etc.
+
+
+Overfull \hbox (6.94817pt too wide) in paragraph at lines 422--453
+\teni rtwLogInfo\tenrm ))[0] = \teni Cosy\tenrm 12[]\teni odel\tenrm 4[]\tensy 
+^^@ \teni > OUTPUT\tenrm 1; ((\teni void \tensy ^^C ^^C\tenrm )\teni rtliGetLog
+YSignalPtrs\tenrm (\teni Cosy\tenrm 12[]\teni odel\tenrm 4[]\tensy ^^@ \teni >|
+
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\teni r
+.\kern0.27779
+.\teni t
+.\teni w
+.\kern0.26909
+.etc.
+
+
+Overfull \hbox (6.94817pt too wide) in paragraph at lines 422--453
+\teni rtwLogInfo\tenrm ))[1] = \teni Cosy\tenrm 12[]\teni odel\tenrm 4[]\tensy 
+^^@ \teni > OUTPUT\tenrm 2; ((\teni void \tensy ^^C ^^C\tenrm )\teni rtliGetLog
+YSignalPtrs\tenrm (\teni Cosy\tenrm 12[]\teni odel\tenrm 4[]\tensy ^^@ \teni >|
+
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\teni r
+.\kern0.27779
+.\teni t
+.\teni w
+.\kern0.26909
+.etc.
+
+
+Overfull \hbox (6.94817pt too wide) in paragraph at lines 422--453
+\teni rtwLogInfo\tenrm ))[2] = \teni Cosy\tenrm 12[]\teni odel\tenrm 4[]\tensy 
+^^@ \teni > OUTPUT\tenrm 3; ((\teni void \tensy ^^C ^^C\tenrm )\teni rtliGetLog
+YSignalPtrs\tenrm (\teni Cosy\tenrm 12[]\teni odel\tenrm 4[]\tensy ^^@ \teni >|
+
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\teni r
+.\kern0.27779
+.\teni t
+.\teni w
+.\kern0.26909
+.etc.
+
+
+Overfull \hbox (6.94817pt too wide) in paragraph at lines 422--453
+\teni rtwLogInfo\tenrm ))[3] = \teni Cosy\tenrm 12[]\teni odel\tenrm 4[]\tensy 
+^^@ \teni > OUTPUT\tenrm 4; ((\teni void \tensy ^^C ^^C\tenrm )\teni rtliGetLog
+YSignalPtrs\tenrm (\teni Cosy\tenrm 12[]\teni odel\tenrm 4[]\tensy ^^@ \teni >|
+
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\teni r
+.\kern0.27779
+.\teni t
+.\teni w
+.\kern0.26909
+.etc.
+
+
+Overfull \hbox (6.94817pt too wide) in paragraph at lines 422--453
+\teni rtwLogInfo\tenrm ))[4] = \teni Cosy\tenrm 12[]\teni odel\tenrm 4[]\tensy 
+^^@ \teni > OUTPUT\tenrm 5; ((\teni void \tensy ^^C ^^C\tenrm )\teni rtliGetLog
+YSignalPtrs\tenrm (\teni Cosy\tenrm 12[]\teni odel\tenrm 4[]\tensy ^^@ \teni >|
+
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\teni r
+.\kern0.27779
+.\teni t
+.\teni w
+.\kern0.26909
+.etc.
+
+
+Overfull \hbox (6.94817pt too wide) in paragraph at lines 422--453
+\teni rtwLogInfo\tenrm ))[5] = \teni Cosy\tenrm 12[]\teni odel\tenrm 4[]\tensy 
+^^@ \teni > OUTPUT\tenrm 6; ((\teni void \tensy ^^C ^^C\tenrm )\teni rtliGetLog
+YSignalPtrs\tenrm (\teni Cosy\tenrm 12[]\teni odel\tenrm 4[]\tensy ^^@ \teni >|
+
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\teni r
+.\kern0.27779
+.\teni t
+.\teni w
+.\kern0.26909
+.etc.
+
+
+Overfull \hbox (6.94817pt too wide) in paragraph at lines 422--453
+\teni rtwLogInfo\tenrm ))[6] = \teni Cosy\tenrm 12[]\teni odel\tenrm 4[]\tensy 
+^^@ \teni > OUTPUT\tenrm 7; ((\teni void \tensy ^^C ^^C\tenrm )\teni rtliGetLog
+YSignalPtrs\tenrm (\teni Cosy\tenrm 12[]\teni odel\tenrm 4[]\tensy ^^@ \teni >|
+
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\teni r
+.\kern0.27779
+.\teni t
+.\teni w
+.\kern0.26909
+.etc.
+
+
+Overfull \hbox (6.94817pt too wide) in paragraph at lines 422--453
+\teni rtwLogInfo\tenrm ))[7] = \teni Cosy\tenrm 12[]\teni odel\tenrm 4[]\tensy 
+^^@ \teni > OUTPUT\tenrm 8; ((\teni void \tensy ^^C ^^C\tenrm )\teni rtliGetLog
+YSignalPtrs\tenrm (\teni Cosy\tenrm 12[]\teni odel\tenrm 4[]\tensy ^^@ \teni >|
+
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\teni r
+.\kern0.27779
+.\teni t
+.\teni w
+.\kern0.26909
+.etc.
+
+
+Overfull \hbox (6.94817pt too wide) in paragraph at lines 422--453
+\teni rtwLogInfo\tenrm ))[8] = \teni Cosy\tenrm 12[]\teni odel\tenrm 4[]\tensy 
+^^@ \teni > OUTPUT\tenrm 9; ((\teni void \tensy ^^C ^^C\tenrm )\teni rtliGetLog
+YSignalPtrs\tenrm (\teni Cosy\tenrm 12[]\teni odel\tenrm 4[]\tensy ^^@ \teni >|
+
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\teni r
+.\kern0.27779
+.\teni t
+.\teni w
+.\kern0.26909
+.etc.
+
+
+Overfull \hbox (11.94818pt too wide) in paragraph at lines 422--453
+\teni rtwLogInfo\tenrm ))[9] = \teni Cosy\tenrm 12[]\teni odel\tenrm 4[]\tensy 
+^^@ \teni > OUTPUT\tenrm 10; ((\teni void \tensy ^^C ^^C\tenrm )\teni rtliGetLo
+gYSignalPtrs\tenrm (\teni Cosy\tenrm 12[]\teni odel\tenrm 4[]\tensy ^^@ \teni >
+|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\teni r
+.\kern0.27779
+.\teni t
+.\teni w
+.\kern0.26909
+.etc.
+
+
+Overfull \hbox (16.9482pt too wide) in paragraph at lines 422--453
+\teni rtwLogInfo\tenrm ))[10] = \teni Cosy\tenrm 12[]\teni odel\tenrm 4[]\tensy
+ ^^@ \teni > OUTPUT\tenrm 11; ((\teni void \tensy ^^C ^^C\tenrm )\teni rtliGetL
+ogYSignalPtrs\tenrm (\teni Cosy\tenrm 12[]\teni odel\tenrm 4[]\tensy ^^@ \teni 
+>|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\teni r
+.\kern0.27779
+.\teni t
+.\teni w
+.\kern0.26909
+.etc.
+
+
+Overfull \hbox (16.9482pt too wide) in paragraph at lines 422--453
+\teni rtwLogInfo\tenrm ))[11] = \teni Cosy\tenrm 12[]\teni odel\tenrm 4[]\tensy
+ ^^@ \teni > OUTPUT\tenrm 12; ((\teni void \tensy ^^C ^^C\tenrm )\teni rtliGetL
+ogYSignalPtrs\tenrm (\teni Cosy\tenrm 12[]\teni odel\tenrm 4[]\tensy ^^@ \teni 
+>|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\teni r
+.\kern0.27779
+.\teni t
+.\teni w
+.\kern0.26909
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.455         static int_
+                         T rt_LoggedOutputWidths[] {
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.470 
+      
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.471         static int_
+                         T rt_LoggedOutputNumDimensions[] {
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.486 
+      
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.487         static int_
+                         T rt_LoggedOutputDimensions[] {
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.502 
+      
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.503         static boolean_
+                             T rt_LoggedOutputIsVarDims[] {
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.518 
+      
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.519         static void* rt_
+                              LoggedCurrentSignalDimensions[] {
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.534 
+      
+? 
+
+Overfull \hbox (335.55632pt too wide) in paragraph at lines 519--534
+[]\tenrm static void* rt$[]\teni oggedCurrentSignalDimensions\tenrm [][];$ |
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm s
+.\tenrm t
+.\tenrm a
+.\tenrm t
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.535         static int_
+                         T rt_LoggedCurrentSignalDimensionsSize[] {
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.550 
+      
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.551         static BuiltInDTypeId rt_
+                                       LoggedOutputDataTypeIds[] {
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.566 
+      
+? 
+
+Overfull \hbox (605.20349pt too wide) in paragraph at lines 551--566
+[]\tenrm static Bu-il-tInD-Ty-peId rt$[]\teni oggedOutputDataTypeIds\tenrm [][]
+;$ |
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm s
+.\tenrm t
+.\tenrm a
+.\tenrm t
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.567         static int_
+                         T rt_LoggedOutputComplexSignals[] {
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.582 
+      
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.583         static RTWPreprocessingFcnPtr rt_
+                                               LoggingPreprocessingFcnPtrs[] {
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.598 
+      
+? 
+
+Overfull \hbox (413.73926pt too wide) in paragraph at lines 583--598
+[]\tenrm static RTW-Pre-pro-ces-singFcnPtr rt$[]\teni oggingPreprocessingFcnPtr
+s\tenrm [][];$ |
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm s
+.\tenrm t
+.\tenrm a
+.\tenrm t
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.599         static const char_
+                                T *rt_LoggedOutputLabels[]{
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.613 
+      
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.614         static const char_
+                                T *rt_LoggedOutputBlockNames[]{
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.628 
+      
+? 
+
+Overfull \hbox (1538.25273pt too wide) in paragraph at lines 614--628
+[]\tenrm static const char$[] \tensy ^^C \teni rt[]oggedOutputBlockNames\tenrm 
+[][];$ |
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm s
+.\tenrm t
+.\tenrm a
+.\tenrm t
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.629         static RTWLogDataTypeConvert rt_
+                                              RTWLogDataTypeConvert[] {
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.631 
+      
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+<to be read again> 
+                   \par 
+l.631 
+      
+? 
+
+Overfull \hbox (40.78001pt too wide) in paragraph at lines 629--631
+[]\tenrm static RTW-Log-Da-ta-Ty-pe-Co-nvert rt$[]\teni TWLogDataTypeConvert\te
+nrm [][]$ |
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm s
+.\tenrm t
+.\tenrm a
+.\tenrm t
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.632           { 0, SS_
+                        DOUBLE, SS_DOUBLE, 0, 0, 0, 1.0, 0, 0.0 },
+? 
+! Extra }, or forgotten $.
+l.632 ...DOUBLE, SS_DOUBLE, 0, 0, 0, 1.0, 0, 0.0 }
+                                                  ,
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.633 
+      
+? 
+[3]
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.634           { 0, SS_
+                        DOUBLE, SS_DOUBLE, 0, 0, 0, 1.0, 0, 0.0 },
+? 
+! Extra }, or forgotten $.
+l.634 ...DOUBLE, SS_DOUBLE, 0, 0, 0, 1.0, 0, 0.0 }
+                                                  ,
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.635 
+      
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.636           { 0, SS_
+                        DOUBLE, SS_DOUBLE, 0, 0, 0, 1.0, 0, 0.0 },
+? 
+! Extra }, or forgotten $.
+l.636 ...DOUBLE, SS_DOUBLE, 0, 0, 0, 1.0, 0, 0.0 }
+                                                  ,
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.637 
+      
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.638           { 0, SS_
+                        DOUBLE, SS_DOUBLE, 0, 0, 0, 1.0, 0, 0.0 },
+? 
+! Extra }, or forgotten $.
+l.638 ...DOUBLE, SS_DOUBLE, 0, 0, 0, 1.0, 0, 0.0 }
+                                                  ,
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.639 
+      
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.640           { 0, SS_
+                        DOUBLE, SS_DOUBLE, 0, 0, 0, 1.0, 0, 0.0 },
+? 
+! Extra }, or forgotten $.
+l.640 ...DOUBLE, SS_DOUBLE, 0, 0, 0, 1.0, 0, 0.0 }
+                                                  ,
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.641 
+      
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.642           { 0, SS_
+                        DOUBLE, SS_DOUBLE, 0, 0, 0, 1.0, 0, 0.0 },
+? 
+! Extra }, or forgotten $.
+l.642 ...DOUBLE, SS_DOUBLE, 0, 0, 0, 1.0, 0, 0.0 }
+                                                  ,
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.643 
+      
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.644           { 0, SS_
+                        DOUBLE, SS_DOUBLE, 0, 0, 0, 1.0, 0, 0.0 },
+? 
+! Extra }, or forgotten $.
+l.644 ...DOUBLE, SS_DOUBLE, 0, 0, 0, 1.0, 0, 0.0 }
+                                                  ,
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.645 
+      
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.646           { 0, SS_
+                        DOUBLE, SS_DOUBLE, 0, 0, 0, 1.0, 0, 0.0 },
+? 
+! Extra }, or forgotten $.
+l.646 ...DOUBLE, SS_DOUBLE, 0, 0, 0, 1.0, 0, 0.0 }
+                                                  ,
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.647 
+      
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.648           { 0, SS_
+                        DOUBLE, SS_DOUBLE, 0, 0, 0, 1.0, 0, 0.0 },
+? 
+! Extra }, or forgotten $.
+l.648 ...DOUBLE, SS_DOUBLE, 0, 0, 0, 1.0, 0, 0.0 }
+                                                  ,
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.649 
+      
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.650           { 0, SS_
+                        DOUBLE, SS_DOUBLE, 0, 0, 0, 1.0, 0, 0.0 },
+? 
+! Extra }, or forgotten $.
+l.650 ...DOUBLE, SS_DOUBLE, 0, 0, 0, 1.0, 0, 0.0 }
+                                                  ,
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.651 
+      
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.652           { 0, SS_
+                        DOUBLE, SS_DOUBLE, 0, 0, 0, 1.0, 0, 0.0 },
+? 
+! Extra }, or forgotten $.
+l.652 ...DOUBLE, SS_DOUBLE, 0, 0, 0, 1.0, 0, 0.0 }
+                                                  ,
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.653 
+      
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.654           { 0, SS_
+                        DOUBLE, SS_DOUBLE, 0, 0, 0, 1.0, 0, 0.0 }
+? 
+! Extra }, or forgotten $.
+l.654 ...DOUBLE, SS_DOUBLE, 0, 0, 0, 1.0, 0, 0.0 }
+                                                  
+? 
+! Extra }, or forgotten $.
+l.655         }
+               ;
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.656 
+      
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.657         static RTWLogSignalInfo rt_
+                                         LoggedOutputSignalInfo[] {
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.670 
+      
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+<to be read again> 
+                   \par 
+l.670 
+      
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+<to be read again> 
+                   \par 
+l.670 
+      
+? 
+
+Overfull \hbox (1159.29138pt too wide) in paragraph at lines 657--670
+[]\tenrm static RTW-Log-Si-gna-lInfo rt$[]\teni oggedOutputSignalInfo\tenrm [][
+]$ |
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm s
+.\tenrm t
+.\tenrm a
+.\tenrm t
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.671             { rt_
+                       LoggedOutputLabels },
+? 
+! Extra }, or forgotten $.
+l.671             { rt_LoggedOutputLabels }
+                                           ,
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.675 
+      
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.676             { rt_
+                       LoggedOutputBlockNames },
+? 
+! Extra }, or forgotten $.
+l.676             { rt_LoggedOutputBlockNames }
+                                               ,
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.677 
+      
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.680             rt_
+                     RTWLogDataTypeConvert
+? 
+! Extra }, or forgotten $.
+l.681           }
+                 
+? 
+! Extra }, or forgotten $.
+l.682         }
+               ;
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.683 
+      
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.684         rtliSetLogYSignalInfo(Cosy12_
+                                           Model4_M->rtwLogInfo,
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.686 
+      
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.688         rt_
+                 LoggedCurrentSignalDimensions[0] = &rt_LoggedOutputWidths[0];
+? 
+! Misplaced alignment tab character &.
+l.688 ...  rt_LoggedCurrentSignalDimensions[0] = &
+                                                  rt_LoggedOutputWidths[0];
+? 
+! Misplaced alignment tab character &.
+l.689 ...  rt_LoggedCurrentSignalDimensions[1] = &
+                                                  rt_LoggedOutputWidths[1];
+? 
+! Misplaced alignment tab character &.
+l.690 ...  rt_LoggedCurrentSignalDimensions[2] = &
+                                                  rt_LoggedOutputWidths[2];
+? 
+! Misplaced alignment tab character &.
+l.691 ...  rt_LoggedCurrentSignalDimensions[3] = &
+                                                  rt_LoggedOutputWidths[3];
+? 
+! Misplaced alignment tab character &.
+l.692 ...  rt_LoggedCurrentSignalDimensions[4] = &
+                                                  rt_LoggedOutputWidths[4];
+? 
+! Misplaced alignment tab character &.
+l.693 ...  rt_LoggedCurrentSignalDimensions[5] = &
+                                                  rt_LoggedOutputWidths[5];
+? 
+! Misplaced alignment tab character &.
+l.694 ...  rt_LoggedCurrentSignalDimensions[6] = &
+                                                  rt_LoggedOutputWidths[6];
+? 
+! Misplaced alignment tab character &.
+l.695 ...  rt_LoggedCurrentSignalDimensions[7] = &
+                                                  rt_LoggedOutputWidths[7];
+? 
+! Misplaced alignment tab character &.
+l.696 ...  rt_LoggedCurrentSignalDimensions[8] = &
+                                                  rt_LoggedOutputWidths[8];
+? 
+! Misplaced alignment tab character &.
+l.697 ...  rt_LoggedCurrentSignalDimensions[9] = &
+                                                  rt_LoggedOutputWidths[9];
+? 
+! Misplaced alignment tab character &.
+l.698 ... rt_LoggedCurrentSignalDimensions[10] = &
+                                                  rt_LoggedOutputWidths[10];
+? 
+! Misplaced alignment tab character &.
+l.699 ... rt_LoggedCurrentSignalDimensions[11] = &
+                                                  rt_LoggedOutputWidths[11];
+? 
+! Misplaced alignment tab character &.
+l.700 ... rt_LoggedCurrentSignalDimensions[12] = &
+                                                  rt_LoggedOutputWidths[12];
+? 
+! Extra }, or forgotten $.
+l.701       }
+             
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.702 
+      
+? 
+
+Overfull \hbox (153.03455pt too wide) in paragraph at lines 687--702
+[]\tenrm /* set cur-r-Sig-Dims field */ rt$[]\teni oggedCurrentSignalDimensions
+\tenrm [0] = \teni rt[]oggedOutputWidths\tenrm [0]; \teni rt[]oggedCurrentSigna
+lDimensions\tenrm [1] =|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm /
+.\tenrm *
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm s
+.etc.
+
+
+Overfull \hbox (137.54958pt too wide) in paragraph at lines 687--702
+\teni rt[]oggedOutputWidths\tenrm [1]; \teni rt[]oggedCurrentSignalDimensions\t
+enrm [2] = \teni rt[]oggedOutputWidths\tenrm [2]; \teni rt[]oggedCurrentSignalD
+imensions\tenrm [3] =|
+
+\hbox(7.5+2.5)x469.75499
+.\teni r
+.\kern0.27779
+.\teni t
+.\hbox(4.78334+0.0)x5.98615, shifted 1.49998
+..\seveni L
+.\teni o
+.etc.
+
+
+Overfull \hbox (137.54958pt too wide) in paragraph at lines 687--702
+\teni rt[]oggedOutputWidths\tenrm [3]; \teni rt[]oggedCurrentSignalDimensions\t
+enrm [4] = \teni rt[]oggedOutputWidths\tenrm [4]; \teni rt[]oggedCurrentSignalD
+imensions\tenrm [5] =|
+
+\hbox(7.5+2.5)x469.75499
+.\teni r
+.\kern0.27779
+.\teni t
+.\hbox(4.78334+0.0)x5.98615, shifted 1.49998
+..\seveni L
+.\teni o
+.etc.
+
+
+Overfull \hbox (137.54958pt too wide) in paragraph at lines 687--702
+\teni rt[]oggedOutputWidths\tenrm [5]; \teni rt[]oggedCurrentSignalDimensions\t
+enrm [6] = \teni rt[]oggedOutputWidths\tenrm [6]; \teni rt[]oggedCurrentSignalD
+imensions\tenrm [7] =|
+
+\hbox(7.5+2.5)x469.75499
+.\teni r
+.\kern0.27779
+.\teni t
+.\hbox(4.78334+0.0)x5.98615, shifted 1.49998
+..\seveni L
+.\teni o
+.etc.
+
+
+Overfull \hbox (137.54958pt too wide) in paragraph at lines 687--702
+\teni rt[]oggedOutputWidths\tenrm [7]; \teni rt[]oggedCurrentSignalDimensions\t
+enrm [8] = \teni rt[]oggedOutputWidths\tenrm [8]; \teni rt[]oggedCurrentSignalD
+imensions\tenrm [9] =|
+
+\hbox(7.5+2.5)x469.75499
+.\teni r
+.\kern0.27779
+.\teni t
+.\hbox(4.78334+0.0)x5.98615, shifted 1.49998
+..\seveni L
+.\teni o
+.etc.
+
+
+Overfull \hbox (152.54962pt too wide) in paragraph at lines 687--702
+\teni rt[]oggedOutputWidths\tenrm [9]; \teni rt[]oggedCurrentSignalDimensions\t
+enrm [10] = \teni rt[]oggedOutputWidths\tenrm [10]; \teni rt[]oggedCurrentSigna
+lDimensions\tenrm [11] =|
+
+\hbox(7.5+2.5)x469.75499
+.\teni r
+.\kern0.27779
+.\teni t
+.\hbox(4.78334+0.0)x5.98615, shifted 1.49998
+..\seveni L
+.\teni o
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.703       rtliSetLogY(Cosy12_
+                               Model4_M->rtwLogInfo, "yout");
+? 
+! Extra }, or forgotten $.
+l.704     }
+           
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.705 
+      
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.706     Cosy12_
+                 Model4_M->Timing.stepSize = (0.01);
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.707 
+      
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.709     (void)std::memset(Cosy12_
+                                   Model4_U, 0, sizeof(ExtU_Cosy12_Model4_T));
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.710 
+      
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.712     (void)std::memset(Cosy12_
+                                   Model4_Y, 0, sizeof(ExtY_Cosy12_Model4_T));
+? 
+! Extra }, or forgotten $.
+l.713   }
+         
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.714 
+      
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.715   return Cosy12_
+                      Model4_M;
+? 
+! Extra }, or forgotten $.
+l.716 }
+       
+? 
+)
+*
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+<*> 
+    
+? 
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*\end
+[4]
+(\end occurred inside a group at level 27)
+
+### simple group (level 27) entered at line 676 ({)
+### simple group (level 26) entered at line 671 ({)
+### simple group (level 25) entered at line 654 ({)
+### simple group (level 24) entered at line 652 ({)
+### simple group (level 23) entered at line 650 ({)
+### simple group (level 22) entered at line 648 ({)
+### simple group (level 21) entered at line 646 ({)
+### simple group (level 20) entered at line 644 ({)
+### simple group (level 19) entered at line 642 ({)
+### simple group (level 18) entered at line 640 ({)
+### simple group (level 17) entered at line 638 ({)
+### simple group (level 16) entered at line 636 ({)
+### simple group (level 15) entered at line 634 ({)
+### simple group (level 14) entered at line 632 ({)
+### simple group (level 13) entered at line 454 ({)
+### simple group (level 12) entered at line 425 ({)
+### simple group (level 11) entered at line 413 ({)
+### simple group (level 10) entered at line 402 ({)
+### simple group (level 9) entered at line 391 ({)
+### simple group (level 8) entered at line 381 ({)
+### simple group (level 7) entered at line 371 ({)
+### simple group (level 6) entered at line 364 ({)
+### simple group (level 5) entered at line 355 ({)
+### simple group (level 4) entered at line 335 ({)
+### simple group (level 3) entered at line 333 ({)
+### simple group (level 2) entered at line 332 ({)
+### simple group (level 1) entered at line 293 ({)
+### bottom level
+Output written on Cosy12_Model4.dvi (4 pages, 41880 bytes).
