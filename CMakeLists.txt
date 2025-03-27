@@ -27,7 +27,7 @@ get_filename_component(START_DIR .. ABSOLUTE)
 # by setting the variable from the command line, e.g.,
 # 
 # 	cmake . -DMATLAB_ROOT=/path/to/another/matlab/root
-set(MATLAB_ROOT /mnt/c/Program\ Files/MATLAB/R2024b CACHE PATH "")
+set(MATLAB_ROOT START_DIR CACHE PATH "")
 
 # Additional variables that are defined conditionally.
 if("${CMAKE_CURRENT_BINARY_DIR}" STREQUAL "${CMAKE_CURRENT_SOURCE_DIR}")
@@ -46,13 +46,13 @@ find_library(FOUND_LIBM m NO_SYSTEM_ENVIRONMENT_PATH PATHS ${CMAKE_C_IMPLICIT_LI
 ###########################################################################
 
 # Definition of target "Cosy12_Model4".
-add_executable(Cosy12_Model4  ${MATLAB_ROOT}/rtw/c/src/rt_logging.c
+add_executable(Cosy12_Model4 ${START_DIR}/Cosy12_Model4_grt_rtw/rt_logging.c
     ${START_DIR}/Cosy12_Model4_grt_rtw/Cosy12_Model4.cpp
     ${START_DIR}/Cosy12_Model4_grt_rtw/Cosy12_Model4_capi.cpp
     ${START_DIR}/Cosy12_Model4_grt_rtw/Cosy12_Model4_data.cpp
     ${START_DIR}/Cosy12_Model4_grt_rtw/rtGetNaN.cpp
     ${START_DIR}/Cosy12_Model4_grt_rtw/rt_nonfinite.cpp
-    ${MATLAB_ROOT}/rtw/c/src/common/rt_main.cpp)
+    ${START_DIR}/Cosy12_Model4_grt_rtw/rt_main.cpp)
 
 # Set properties for target "Cosy12_Model4".
 set_target_properties(Cosy12_Model4 PROPERTIES PREFIX ""
@@ -81,13 +81,6 @@ target_compile_definitions(Cosy12_Model4 PRIVATE -DMODEL=Cosy12_Model4
     -DINTEGER_CODE=0
     -DMT=0)
 
-# Specify include directories for target "Cosy12_Model4".
-target_include_directories(Cosy12_Model4 PRIVATE ${START_DIR}
-    ${START_DIR}/Cosy12_Model4_grt_rtw
-    ${MATLAB_ROOT}/extern/include
-    ${MATLAB_ROOT}/simulink/include
-    ${MATLAB_ROOT}/rtw/c/src
-    ${MATLAB_ROOT}/rtw/c/src/ext_mode/common)
 
 # Specify library link dependencies for target "Cosy12_Model4". CMake 
 # generator expressions are used to create a CMakeLists.txt file that 
@@ -136,8 +129,8 @@ add_library(libcosy SHARED
     ${START_DIR}/Cosy12_Model4_grt_rtw/Cosy12_Model4_data.cpp
     ${START_DIR}/Cosy12_Model4_grt_rtw/rtGetNaN.cpp
     ${START_DIR}/Cosy12_Model4_grt_rtw/rt_nonfinite.cpp
-    ${MATLAB_ROOT}/rtw/c/src/rt_logging.c  # Include Simulink Coder runtime source
-    ${MATLAB_ROOT}/rtw/c/src/common/rt_main.cpp  # Include Simulink Coder runtime source
+    ${START_DIR}/Cosy12_Model4_grt_rtw/rt_logging.c  # Include Simulink Coder runtime source
+    ${START_DIR}/Cosy12_Model4_grt_rtw/rt_main.cpp  # Include Simulink Coder runtime source
 )
 
 # Set properties for the shared library
@@ -173,10 +166,7 @@ target_compile_definitions(libcosy PRIVATE
 target_include_directories(libcosy PRIVATE
     ${START_DIR}
     ${START_DIR}/Cosy12_Model4_grt_rtw
-    ${MATLAB_ROOT}/extern/include
-    ${MATLAB_ROOT}/simulink/include
-    ${MATLAB_ROOT}/rtw/c/src
-    ${MATLAB_ROOT}/rtw/c/src/ext_mode/common
+    
 )
 
 # Specify library link dependencies for the shared library

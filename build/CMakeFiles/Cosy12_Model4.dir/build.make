@@ -57,18 +57,18 @@ include CMakeFiles/Cosy12_Model4.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Cosy12_Model4.dir/flags.make
 
-CMakeFiles/Cosy12_Model4.dir/mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/rt_logging.c.o: CMakeFiles/Cosy12_Model4.dir/flags.make
-CMakeFiles/Cosy12_Model4.dir/mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/rt_logging.c.o: /mnt/c/Program\ Files/MATLAB/R2024b/rtw/c/src/rt_logging.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Dushan Plushkoski/Desktop/Cosy Development/MATLAB_Sims/Cosy12_Model4_grt_rtw/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Cosy12_Model4.dir/mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/rt_logging.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Cosy12_Model4.dir/mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/rt_logging.c.o   -c "/mnt/c/Program Files/MATLAB/R2024b/rtw/c/src/rt_logging.c"
+CMakeFiles/Cosy12_Model4.dir/rt_logging.c.o: CMakeFiles/Cosy12_Model4.dir/flags.make
+CMakeFiles/Cosy12_Model4.dir/rt_logging.c.o: ../rt_logging.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Dushan Plushkoski/Desktop/Cosy Development/MATLAB_Sims/Cosy12_Model4_grt_rtw/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Cosy12_Model4.dir/rt_logging.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Cosy12_Model4.dir/rt_logging.c.o   -c "/mnt/c/Users/Dushan Plushkoski/Desktop/Cosy Development/MATLAB_Sims/Cosy12_Model4_grt_rtw/rt_logging.c"
 
-CMakeFiles/Cosy12_Model4.dir/mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/rt_logging.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Cosy12_Model4.dir/mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/rt_logging.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/c/Program Files/MATLAB/R2024b/rtw/c/src/rt_logging.c" > CMakeFiles/Cosy12_Model4.dir/mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/rt_logging.c.i
+CMakeFiles/Cosy12_Model4.dir/rt_logging.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Cosy12_Model4.dir/rt_logging.c.i"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/c/Users/Dushan Plushkoski/Desktop/Cosy Development/MATLAB_Sims/Cosy12_Model4_grt_rtw/rt_logging.c" > CMakeFiles/Cosy12_Model4.dir/rt_logging.c.i
 
-CMakeFiles/Cosy12_Model4.dir/mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/rt_logging.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Cosy12_Model4.dir/mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/rt_logging.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/c/Program Files/MATLAB/R2024b/rtw/c/src/rt_logging.c" -o CMakeFiles/Cosy12_Model4.dir/mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/rt_logging.c.s
+CMakeFiles/Cosy12_Model4.dir/rt_logging.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Cosy12_Model4.dir/rt_logging.c.s"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/c/Users/Dushan Plushkoski/Desktop/Cosy Development/MATLAB_Sims/Cosy12_Model4_grt_rtw/rt_logging.c" -o CMakeFiles/Cosy12_Model4.dir/rt_logging.c.s
 
 CMakeFiles/Cosy12_Model4.dir/Cosy12_Model4.cpp.o: CMakeFiles/Cosy12_Model4.dir/flags.make
 CMakeFiles/Cosy12_Model4.dir/Cosy12_Model4.cpp.o: ../Cosy12_Model4.cpp
@@ -135,39 +135,39 @@ CMakeFiles/Cosy12_Model4.dir/rt_nonfinite.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Cosy12_Model4.dir/rt_nonfinite.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Dushan Plushkoski/Desktop/Cosy Development/MATLAB_Sims/Cosy12_Model4_grt_rtw/rt_nonfinite.cpp" -o CMakeFiles/Cosy12_Model4.dir/rt_nonfinite.cpp.s
 
-CMakeFiles/Cosy12_Model4.dir/mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/common/rt_main.cpp.o: CMakeFiles/Cosy12_Model4.dir/flags.make
-CMakeFiles/Cosy12_Model4.dir/mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/common/rt_main.cpp.o: /mnt/c/Program\ Files/MATLAB/R2024b/rtw/c/src/common/rt_main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Dushan Plushkoski/Desktop/Cosy Development/MATLAB_Sims/Cosy12_Model4_grt_rtw/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Cosy12_Model4.dir/mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/common/rt_main.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Cosy12_Model4.dir/mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/common/rt_main.cpp.o -c "/mnt/c/Program Files/MATLAB/R2024b/rtw/c/src/common/rt_main.cpp"
+CMakeFiles/Cosy12_Model4.dir/rt_main.cpp.o: CMakeFiles/Cosy12_Model4.dir/flags.make
+CMakeFiles/Cosy12_Model4.dir/rt_main.cpp.o: ../rt_main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Dushan Plushkoski/Desktop/Cosy Development/MATLAB_Sims/Cosy12_Model4_grt_rtw/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Cosy12_Model4.dir/rt_main.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Cosy12_Model4.dir/rt_main.cpp.o -c "/mnt/c/Users/Dushan Plushkoski/Desktop/Cosy Development/MATLAB_Sims/Cosy12_Model4_grt_rtw/rt_main.cpp"
 
-CMakeFiles/Cosy12_Model4.dir/mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/common/rt_main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Cosy12_Model4.dir/mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/common/rt_main.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Program Files/MATLAB/R2024b/rtw/c/src/common/rt_main.cpp" > CMakeFiles/Cosy12_Model4.dir/mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/common/rt_main.cpp.i
+CMakeFiles/Cosy12_Model4.dir/rt_main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Cosy12_Model4.dir/rt_main.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/Dushan Plushkoski/Desktop/Cosy Development/MATLAB_Sims/Cosy12_Model4_grt_rtw/rt_main.cpp" > CMakeFiles/Cosy12_Model4.dir/rt_main.cpp.i
 
-CMakeFiles/Cosy12_Model4.dir/mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/common/rt_main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Cosy12_Model4.dir/mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/common/rt_main.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Program Files/MATLAB/R2024b/rtw/c/src/common/rt_main.cpp" -o CMakeFiles/Cosy12_Model4.dir/mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/common/rt_main.cpp.s
+CMakeFiles/Cosy12_Model4.dir/rt_main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Cosy12_Model4.dir/rt_main.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Dushan Plushkoski/Desktop/Cosy Development/MATLAB_Sims/Cosy12_Model4_grt_rtw/rt_main.cpp" -o CMakeFiles/Cosy12_Model4.dir/rt_main.cpp.s
 
 # Object files for target Cosy12_Model4
 Cosy12_Model4_OBJECTS = \
-"CMakeFiles/Cosy12_Model4.dir/mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/rt_logging.c.o" \
+"CMakeFiles/Cosy12_Model4.dir/rt_logging.c.o" \
 "CMakeFiles/Cosy12_Model4.dir/Cosy12_Model4.cpp.o" \
 "CMakeFiles/Cosy12_Model4.dir/Cosy12_Model4_capi.cpp.o" \
 "CMakeFiles/Cosy12_Model4.dir/Cosy12_Model4_data.cpp.o" \
 "CMakeFiles/Cosy12_Model4.dir/rtGetNaN.cpp.o" \
 "CMakeFiles/Cosy12_Model4.dir/rt_nonfinite.cpp.o" \
-"CMakeFiles/Cosy12_Model4.dir/mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/common/rt_main.cpp.o"
+"CMakeFiles/Cosy12_Model4.dir/rt_main.cpp.o"
 
 # External object files for target Cosy12_Model4
 Cosy12_Model4_EXTERNAL_OBJECTS =
 
-Cosy12_Model4: CMakeFiles/Cosy12_Model4.dir/mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/rt_logging.c.o
+Cosy12_Model4: CMakeFiles/Cosy12_Model4.dir/rt_logging.c.o
 Cosy12_Model4: CMakeFiles/Cosy12_Model4.dir/Cosy12_Model4.cpp.o
 Cosy12_Model4: CMakeFiles/Cosy12_Model4.dir/Cosy12_Model4_capi.cpp.o
 Cosy12_Model4: CMakeFiles/Cosy12_Model4.dir/Cosy12_Model4_data.cpp.o
 Cosy12_Model4: CMakeFiles/Cosy12_Model4.dir/rtGetNaN.cpp.o
 Cosy12_Model4: CMakeFiles/Cosy12_Model4.dir/rt_nonfinite.cpp.o
-Cosy12_Model4: CMakeFiles/Cosy12_Model4.dir/mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/common/rt_main.cpp.o
+Cosy12_Model4: CMakeFiles/Cosy12_Model4.dir/rt_main.cpp.o
 Cosy12_Model4: CMakeFiles/Cosy12_Model4.dir/build.make
 Cosy12_Model4: CMakeFiles/Cosy12_Model4.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/mnt/c/Users/Dushan Plushkoski/Desktop/Cosy Development/MATLAB_Sims/Cosy12_Model4_grt_rtw/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Cosy12_Model4"

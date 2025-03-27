@@ -218,7 +218,7 @@ Cosy12_Model4_SOURCE_DIR:STATIC=/mnt/c/Users/Dushan Plushkoski/Desktop/Cosy Deve
 //Path to a library.
 FOUND_LIBM:FILEPATH=/usr/lib/x86_64-linux-gnu/libm.so
 
-MATLAB_ROOT:PATH=/mnt/c/Program Files/MATLAB/R2024b
+MATLAB_ROOT:PATH=START_DIR
 
 
 ########################

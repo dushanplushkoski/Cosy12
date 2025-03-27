@@ -226,66 +226,6 @@ Cosy12_Model4_data.cpp.s:
 	$(MAKE) -f CMakeFiles/Cosy12_Model4.dir/build.make CMakeFiles/Cosy12_Model4.dir/Cosy12_Model4_data.cpp.s
 .PHONY : Cosy12_Model4_data.cpp.s
 
-mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/common/rt_main.o: mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/common/rt_main.cpp.o
-
-.PHONY : mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/common/rt_main.o
-
-# target to build an object file
-mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/common/rt_main.cpp.o:
-	$(MAKE) -f CMakeFiles/libcosy.dir/build.make CMakeFiles/libcosy.dir/mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/common/rt_main.cpp.o
-	$(MAKE) -f CMakeFiles/Cosy12_Model4.dir/build.make CMakeFiles/Cosy12_Model4.dir/mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/common/rt_main.cpp.o
-.PHONY : mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/common/rt_main.cpp.o
-
-mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/common/rt_main.i: mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/common/rt_main.cpp.i
-
-.PHONY : mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/common/rt_main.i
-
-# target to preprocess a source file
-mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/common/rt_main.cpp.i:
-	$(MAKE) -f CMakeFiles/libcosy.dir/build.make CMakeFiles/libcosy.dir/mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/common/rt_main.cpp.i
-	$(MAKE) -f CMakeFiles/Cosy12_Model4.dir/build.make CMakeFiles/Cosy12_Model4.dir/mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/common/rt_main.cpp.i
-.PHONY : mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/common/rt_main.cpp.i
-
-mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/common/rt_main.s: mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/common/rt_main.cpp.s
-
-.PHONY : mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/common/rt_main.s
-
-# target to generate assembly for a file
-mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/common/rt_main.cpp.s:
-	$(MAKE) -f CMakeFiles/libcosy.dir/build.make CMakeFiles/libcosy.dir/mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/common/rt_main.cpp.s
-	$(MAKE) -f CMakeFiles/Cosy12_Model4.dir/build.make CMakeFiles/Cosy12_Model4.dir/mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/common/rt_main.cpp.s
-.PHONY : mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/common/rt_main.cpp.s
-
-mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/rt_logging.o: mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/rt_logging.c.o
-
-.PHONY : mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/rt_logging.o
-
-# target to build an object file
-mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/rt_logging.c.o:
-	$(MAKE) -f CMakeFiles/libcosy.dir/build.make CMakeFiles/libcosy.dir/mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/rt_logging.c.o
-	$(MAKE) -f CMakeFiles/Cosy12_Model4.dir/build.make CMakeFiles/Cosy12_Model4.dir/mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/rt_logging.c.o
-.PHONY : mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/rt_logging.c.o
-
-mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/rt_logging.i: mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/rt_logging.c.i
-
-.PHONY : mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/rt_logging.i
-
-# target to preprocess a source file
-mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/rt_logging.c.i:
-	$(MAKE) -f CMakeFiles/libcosy.dir/build.make CMakeFiles/libcosy.dir/mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/rt_logging.c.i
-	$(MAKE) -f CMakeFiles/Cosy12_Model4.dir/build.make CMakeFiles/Cosy12_Model4.dir/mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/rt_logging.c.i
-.PHONY : mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/rt_logging.c.i
-
-mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/rt_logging.s: mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/rt_logging.c.s
-
-.PHONY : mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/rt_logging.s
-
-# target to generate assembly for a file
-mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/rt_logging.c.s:
-	$(MAKE) -f CMakeFiles/libcosy.dir/build.make CMakeFiles/libcosy.dir/mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/rt_logging.c.s
-	$(MAKE) -f CMakeFiles/Cosy12_Model4.dir/build.make CMakeFiles/Cosy12_Model4.dir/mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/rt_logging.c.s
-.PHONY : mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/rt_logging.c.s
-
 rtGetNaN.o: rtGetNaN.cpp.o
 
 .PHONY : rtGetNaN.o
@@ -315,6 +255,66 @@ rtGetNaN.cpp.s:
 	$(MAKE) -f CMakeFiles/libcosy.dir/build.make CMakeFiles/libcosy.dir/rtGetNaN.cpp.s
 	$(MAKE) -f CMakeFiles/Cosy12_Model4.dir/build.make CMakeFiles/Cosy12_Model4.dir/rtGetNaN.cpp.s
 .PHONY : rtGetNaN.cpp.s
+
+rt_logging.o: rt_logging.c.o
+
+.PHONY : rt_logging.o
+
+# target to build an object file
+rt_logging.c.o:
+	$(MAKE) -f CMakeFiles/libcosy.dir/build.make CMakeFiles/libcosy.dir/rt_logging.c.o
+	$(MAKE) -f CMakeFiles/Cosy12_Model4.dir/build.make CMakeFiles/Cosy12_Model4.dir/rt_logging.c.o
+.PHONY : rt_logging.c.o
+
+rt_logging.i: rt_logging.c.i
+
+.PHONY : rt_logging.i
+
+# target to preprocess a source file
+rt_logging.c.i:
+	$(MAKE) -f CMakeFiles/libcosy.dir/build.make CMakeFiles/libcosy.dir/rt_logging.c.i
+	$(MAKE) -f CMakeFiles/Cosy12_Model4.dir/build.make CMakeFiles/Cosy12_Model4.dir/rt_logging.c.i
+.PHONY : rt_logging.c.i
+
+rt_logging.s: rt_logging.c.s
+
+.PHONY : rt_logging.s
+
+# target to generate assembly for a file
+rt_logging.c.s:
+	$(MAKE) -f CMakeFiles/libcosy.dir/build.make CMakeFiles/libcosy.dir/rt_logging.c.s
+	$(MAKE) -f CMakeFiles/Cosy12_Model4.dir/build.make CMakeFiles/Cosy12_Model4.dir/rt_logging.c.s
+.PHONY : rt_logging.c.s
+
+rt_main.o: rt_main.cpp.o
+
+.PHONY : rt_main.o
+
+# target to build an object file
+rt_main.cpp.o:
+	$(MAKE) -f CMakeFiles/libcosy.dir/build.make CMakeFiles/libcosy.dir/rt_main.cpp.o
+	$(MAKE) -f CMakeFiles/Cosy12_Model4.dir/build.make CMakeFiles/Cosy12_Model4.dir/rt_main.cpp.o
+.PHONY : rt_main.cpp.o
+
+rt_main.i: rt_main.cpp.i
+
+.PHONY : rt_main.i
+
+# target to preprocess a source file
+rt_main.cpp.i:
+	$(MAKE) -f CMakeFiles/libcosy.dir/build.make CMakeFiles/libcosy.dir/rt_main.cpp.i
+	$(MAKE) -f CMakeFiles/Cosy12_Model4.dir/build.make CMakeFiles/Cosy12_Model4.dir/rt_main.cpp.i
+.PHONY : rt_main.cpp.i
+
+rt_main.s: rt_main.cpp.s
+
+.PHONY : rt_main.s
+
+# target to generate assembly for a file
+rt_main.cpp.s:
+	$(MAKE) -f CMakeFiles/libcosy.dir/build.make CMakeFiles/libcosy.dir/rt_main.cpp.s
+	$(MAKE) -f CMakeFiles/Cosy12_Model4.dir/build.make CMakeFiles/Cosy12_Model4.dir/rt_main.cpp.s
+.PHONY : rt_main.cpp.s
 
 rt_nonfinite.o: rt_nonfinite.cpp.o
 
@@ -365,15 +365,15 @@ help:
 	@echo "... Cosy12_Model4_data.o"
 	@echo "... Cosy12_Model4_data.i"
 	@echo "... Cosy12_Model4_data.s"
-	@echo "... mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/common/rt_main.o"
-	@echo "... mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/common/rt_main.i"
-	@echo "... mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/common/rt_main.s"
-	@echo "... mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/rt_logging.o"
-	@echo "... mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/rt_logging.i"
-	@echo "... mnt/c/Program_Files/MATLAB/R2024b/rtw/c/src/rt_logging.s"
 	@echo "... rtGetNaN.o"
 	@echo "... rtGetNaN.i"
 	@echo "... rtGetNaN.s"
+	@echo "... rt_logging.o"
+	@echo "... rt_logging.i"
+	@echo "... rt_logging.s"
+	@echo "... rt_main.o"
+	@echo "... rt_main.i"
+	@echo "... rt_main.s"
 	@echo "... rt_nonfinite.o"
 	@echo "... rt_nonfinite.i"
 	@echo "... rt_nonfinite.s"
