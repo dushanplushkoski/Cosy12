@@ -23,8 +23,7 @@
  #include "cmath"
  #include <iostream>
  
-  
-/* Block signals (default storage) */
+ * Block signals (default storage) */
 B_Cosy12_Model4_T Cosy12_Model4_B;
 
 /* External inputs (root inport signals with default storage) */
@@ -877,69 +876,66 @@ void Cosy12_Model4_initialize(void)
   rt_StartDataLoggingWithStartTime(Cosy12_Model4_M->rtwLogInfo, 0.0,
     rtmGetTFinal(Cosy12_Model4_M), Cosy12_Model4_M->Timing.stepSize0,
     (&rtmGetErrorStatus(Cosy12_Model4_M)));
- 
- #include <iostream>
- #include "Cosy12_Model4.h"  // Ensure you include the correct header
-}
- // Ensure functions are properly exported
+    // Ensure functions are properly exported
  extern "C" {
-     void initializeModel() {
-         std::cout << "Model initialized!" << std::endl;
-         Cosy12_Model4_initialize(); // Call the model initialization function
-     }
- 
-     void calculateOutputs(double in1, double in2, double in3, double in4, 
-                           double in5, double in6, double* outputs) {
-         // Debug: Print inputs
-         std::cout << "Inputs: "
-                   << in1 << ", " << in2 << ", " << in3 << ", " << in4 << ", "
-                   << in5 << ", " << in6 << std::endl;
- 
-         // Assign inputs to the model
-         Cosy12_Model4_U.Inport1 = in1;
-         Cosy12_Model4_U.Inport2 = in2;
-         Cosy12_Model4_U.Inport3 = in3;
-         Cosy12_Model4_U.Inport4 = in4;
-         Cosy12_Model4_U.Inport5 = in5;
-         Cosy12_Model4_U.Inport6 = in6;
- 
-         // Debug: Print assigned inputs
-         std::cout << "Assigned Inputs: "
-                   << Cosy12_Model4_U.Inport1 << ", " << Cosy12_Model4_U.Inport2 << ", "
-                   << Cosy12_Model4_U.Inport3 << ", " << Cosy12_Model4_U.Inport4 << ", "
-                   << Cosy12_Model4_U.Inport5 << ", " << Cosy12_Model4_U.Inport6 << std::endl;
- 
-         // Run the model step function
-         Cosy12_Model4_step();
- 
-         // Collect outputs
-         outputs[0] = Cosy12_Model4_Y.OUTPUT1;
-         outputs[1] = Cosy12_Model4_Y.OUTPUT2;
-         outputs[2] = Cosy12_Model4_Y.OUTPUT3;
-         outputs[3] = Cosy12_Model4_Y.OUTPUT4;
-         outputs[4] = Cosy12_Model4_Y.OUTPUT5;
-         outputs[5] = Cosy12_Model4_Y.OUTPUT6;
-         outputs[6] = Cosy12_Model4_Y.OUTPUT7;
-         outputs[7] = Cosy12_Model4_Y.OUTPUT8;
-         outputs[8] = Cosy12_Model4_Y.OUTPUT9;
-         outputs[9] = Cosy12_Model4_Y.OUTPUT10;
-         outputs[10] = Cosy12_Model4_Y.OUTPUT11;
-         outputs[11] = Cosy12_Model4_Y.OUTPUT12;
-         outputs[12] = Cosy12_Model4_Y.OUTPUT13;
-         outputs[13] = Cosy12_Model4_Y.OUTPUT14;
-         outputs[14] = Cosy12_Model4_Y.OUTPUT15;
- 
-         // Debug: Print outputs
-         std::cout << "Outputs: ";
-         for (int i = 0; i < 15; i++) {
-             std::cout << outputs[i] << " ";
-         }
-         std::cout << std::endl;
-     }
- }
- 
- 
-   
+  void initializeModel() {
+      std::cout << "Model initialized!" << std::endl;
+      Cosy12_Model4_initialize(); // Call the model initialization function
+  }
+
+  void calculateOutputs(double in1, double in2, double in3, double in4, 
+                        double in5, double in6, double* outputs) {
+      // Debug: Print inputs
+      std::cout << "Inputs: "
+                << in1 << ", " << in2 << ", " << in3 << ", " << in4 << ", "
+                << in5 << ", " << in6 << std::endl;
+
+      // Assign inputs to the model
+      Cosy12_Model4_U.Inport1 = in1;
+      Cosy12_Model4_U.Inport2 = in2;
+      Cosy12_Model4_U.Inport3 = in3;
+      Cosy12_Model4_U.Inport4 = in4;
+      Cosy12_Model4_U.Inport5 = in5;
+      Cosy12_Model4_U.Inport6 = in6;
+
+      // Debug: Print assigned inputs
+      std::cout << "Assigned Inputs: "
+                << Cosy12_Model4_U.Inport1 << ", " << Cosy12_Model4_U.Inport2 << ", "
+                << Cosy12_Model4_U.Inport3 << ", " << Cosy12_Model4_U.Inport4 << ", "
+                << Cosy12_Model4_U.Inport5 << ", " << Cosy12_Model4_U.Inport6 << std::endl;
+
+      // Run the model step function
+      Cosy12_Model4_step();
+
+      // Collect outputs
+      outputs[0] = Cosy12_Model4_Y.OUTPUT1;
+      outputs[1] = Cosy12_Model4_Y.OUTPUT2;
+      outputs[2] = Cosy12_Model4_Y.OUTPUT3;
+      outputs[3] = Cosy12_Model4_Y.OUTPUT4;
+      outputs[4] = Cosy12_Model4_Y.OUTPUT5;
+      outputs[5] = Cosy12_Model4_Y.OUTPUT6;
+      outputs[6] = Cosy12_Model4_Y.OUTPUT7;
+      outputs[7] = Cosy12_Model4_Y.OUTPUT8;
+      outputs[8] = Cosy12_Model4_Y.OUTPUT9;
+      outputs[9] = Cosy12_Model4_Y.OUTPUT10;
+      outputs[10] = Cosy12_Model4_Y.OUTPUT11;
+      outputs[11] = Cosy12_Model4_Y.OUTPUT12;
+      outputs[12] = Cosy12_Model4_Y.OUTPUT13;
+      outputs[13] = Cosy12_Model4_Y.OUTPUT14;
+      outputs[14] = Cosy12_Model4_Y.OUTPUT15;
+
+      // Debug: Print outputs
+      std::cout << "Outputs: ";
+      for (int i = 0; i < 15; i++) {
+          std::cout << outputs[i] << " ";
+      }
+      std::cout << std::endl;
+  }
+}
+
+
+
+
  
  
  /* Model terminate function */
