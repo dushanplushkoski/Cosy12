@@ -24,7 +24,7 @@
  #include <iostream>
  
   
- //* Block signals (default storage) */
+/* Block signals (default storage) */
 B_Cosy12_Model4_T Cosy12_Model4_B;
 
 /* External inputs (root inport signals with default storage) */
@@ -880,7 +880,7 @@ void Cosy12_Model4_initialize(void)
  
  #include <iostream>
  #include "Cosy12_Model4.h"  // Ensure you include the correct header
- 
+}
  // Ensure functions are properly exported
  extern "C" {
      void initializeModel() {
