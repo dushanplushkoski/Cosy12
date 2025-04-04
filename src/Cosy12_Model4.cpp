@@ -23,7 +23,7 @@
  #include "cmath"
  #include <iostream>
  
- * Block signals (default storage) */
+ /* Block signals (default storage) */
 B_Cosy12_Model4_T Cosy12_Model4_B;
 
 /* External inputs (root inport signals with default storage) */
@@ -877,6 +877,8 @@ void Cosy12_Model4_initialize(void)
     rtmGetTFinal(Cosy12_Model4_M), Cosy12_Model4_M->Timing.stepSize0,
     (&rtmGetErrorStatus(Cosy12_Model4_M)));
     // Ensure functions are properly exported
+
+
  extern "C" {
   void initializeModel() {
       std::cout << "Model initialized!" << std::endl;
