@@ -878,7 +878,7 @@ void Cosy12_Model4_initialize(void)
     (&rtmGetErrorStatus(Cosy12_Model4_M)));
     // Ensure functions are properly exported
 
-
+}
  extern "C" {
   void initializeModel() {
       std::cout << "Model initialized!" << std::endl;
