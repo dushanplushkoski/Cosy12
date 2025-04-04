@@ -24,7 +24,7 @@
  #include <iostream>
  
   
- * Block signals (default storage) */
+ /* Block signals (default storage) */
 B_Cosy12_Model4_T Cosy12_Model4_B;
 
 /* External inputs (root inport signals with default storage) */
