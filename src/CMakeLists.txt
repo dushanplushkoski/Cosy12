@@ -46,7 +46,7 @@ find_library(FOUND_LIBM m NO_SYSTEM_ENVIRONMENT_PATH PATHS ${CMAKE_C_IMPLICIT_LI
 ###########################################################################
 
 # Definition of target "Cosy12_Model4".
-add_executable(Cosy12_Model4 ${START_DIR}/Cosy12_Model4_grt_rtw/rt_logging.c
+add_executable(Cosy12_Model4 ${START_DIR}/rt_logging.c
     ${START_DIR}/Cosy12_Model4.cpp
     ${START_DIR}/Cosy12_Model4_capi.cpp
     ${START_DIR}/Cosy12_Model4_data.cpp
@@ -165,7 +165,7 @@ target_compile_definitions(libcosy PRIVATE
 # Specify include directories for the shared library
 target_include_directories(libcosy PRIVATE
     ${START_DIR}
-    ${START_DIR}/Cosy12_Model4_grt_rtw
+    
     
 )
 
